@@ -1,0 +1,7084 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: aliceblue;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-1 {
+  padding: 1px;
+}
+
+.m-1 {
+  margin: 1px;
+}
+
+.gap-1 {
+  gap: 1px;
+}
+
+.fs-1 {
+  font-size: 1px;
+}
+
+.br-1 {
+  border-radius: 1px;
+}
+
+.b-1 {
+  border: 1px solid black;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.bg-blue-1 {
+  background-color: rgb(0, 0, 1);
+}
+
+.bg-red-1 {
+  background-color: rgb(1, 0, 0);
+}
+
+.bg-green-1 {
+  background-color: rgb(0, 1, 0);
+}
+
+.text-blue-1 {
+  color: rgb(0, 0, 1);
+}
+
+.text-red-1 {
+  color: rgb(1, 0, 0);
+}
+
+.text-green-1 {
+  color: rgb(0, 1, 0);
+}
+
+.p-2 {
+  padding: 2px;
+}
+
+.m-2 {
+  margin: 2px;
+}
+
+.gap-2 {
+  gap: 2px;
+}
+
+.fs-2 {
+  font-size: 2px;
+}
+
+.br-2 {
+  border-radius: 2px;
+}
+
+.b-2 {
+  border: 2px solid black;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.bg-blue-2 {
+  background-color: rgb(0, 0, 2);
+}
+
+.bg-red-2 {
+  background-color: rgb(2, 0, 0);
+}
+
+.bg-green-2 {
+  background-color: rgb(0, 2, 0);
+}
+
+.text-blue-2 {
+  color: rgb(0, 0, 2);
+}
+
+.text-red-2 {
+  color: rgb(2, 0, 0);
+}
+
+.text-green-2 {
+  color: rgb(0, 2, 0);
+}
+
+.p-3 {
+  padding: 3px;
+}
+
+.m-3 {
+  margin: 3px;
+}
+
+.gap-3 {
+  gap: 3px;
+}
+
+.fs-3 {
+  font-size: 3px;
+}
+
+.br-3 {
+  border-radius: 3px;
+}
+
+.b-3 {
+  border: 3px solid black;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.bg-blue-3 {
+  background-color: rgb(0, 0, 3);
+}
+
+.bg-red-3 {
+  background-color: rgb(3, 0, 0);
+}
+
+.bg-green-3 {
+  background-color: rgb(0, 3, 0);
+}
+
+.text-blue-3 {
+  color: rgb(0, 0, 3);
+}
+
+.text-red-3 {
+  color: rgb(3, 0, 0);
+}
+
+.text-green-3 {
+  color: rgb(0, 3, 0);
+}
+
+.p-4 {
+  padding: 4px;
+}
+
+.m-4 {
+  margin: 4px;
+}
+
+.gap-4 {
+  gap: 4px;
+}
+
+.fs-4 {
+  font-size: 4px;
+}
+
+.br-4 {
+  border-radius: 4px;
+}
+
+.b-4 {
+  border: 4px solid black;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.bg-blue-4 {
+  background-color: rgb(0, 0, 4);
+}
+
+.bg-red-4 {
+  background-color: rgb(4, 0, 0);
+}
+
+.bg-green-4 {
+  background-color: rgb(0, 4, 0);
+}
+
+.text-blue-4 {
+  color: rgb(0, 0, 4);
+}
+
+.text-red-4 {
+  color: rgb(4, 0, 0);
+}
+
+.text-green-4 {
+  color: rgb(0, 4, 0);
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.fs-5 {
+  font-size: 5px;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.b-5 {
+  border: 5px solid black;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.bg-blue-5 {
+  background-color: rgb(0, 0, 5);
+}
+
+.bg-red-5 {
+  background-color: rgb(5, 0, 0);
+}
+
+.bg-green-5 {
+  background-color: rgb(0, 5, 0);
+}
+
+.text-blue-5 {
+  color: rgb(0, 0, 5);
+}
+
+.text-red-5 {
+  color: rgb(5, 0, 0);
+}
+
+.text-green-5 {
+  color: rgb(0, 5, 0);
+}
+
+.p-6 {
+  padding: 6px;
+}
+
+.m-6 {
+  margin: 6px;
+}
+
+.gap-6 {
+  gap: 6px;
+}
+
+.fs-6 {
+  font-size: 6px;
+}
+
+.br-6 {
+  border-radius: 6px;
+}
+
+.b-6 {
+  border: 6px solid black;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.bg-blue-6 {
+  background-color: rgb(0, 0, 6);
+}
+
+.bg-red-6 {
+  background-color: rgb(6, 0, 0);
+}
+
+.bg-green-6 {
+  background-color: rgb(0, 6, 0);
+}
+
+.text-blue-6 {
+  color: rgb(0, 0, 6);
+}
+
+.text-red-6 {
+  color: rgb(6, 0, 0);
+}
+
+.text-green-6 {
+  color: rgb(0, 6, 0);
+}
+
+.p-7 {
+  padding: 7px;
+}
+
+.m-7 {
+  margin: 7px;
+}
+
+.gap-7 {
+  gap: 7px;
+}
+
+.fs-7 {
+  font-size: 7px;
+}
+
+.br-7 {
+  border-radius: 7px;
+}
+
+.b-7 {
+  border: 7px solid black;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.bg-blue-7 {
+  background-color: rgb(0, 0, 7);
+}
+
+.bg-red-7 {
+  background-color: rgb(7, 0, 0);
+}
+
+.bg-green-7 {
+  background-color: rgb(0, 7, 0);
+}
+
+.text-blue-7 {
+  color: rgb(0, 0, 7);
+}
+
+.text-red-7 {
+  color: rgb(7, 0, 0);
+}
+
+.text-green-7 {
+  color: rgb(0, 7, 0);
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.br-8 {
+  border-radius: 8px;
+}
+
+.b-8 {
+  border: 8px solid black;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.bg-blue-8 {
+  background-color: rgb(0, 0, 8);
+}
+
+.bg-red-8 {
+  background-color: rgb(8, 0, 0);
+}
+
+.bg-green-8 {
+  background-color: rgb(0, 8, 0);
+}
+
+.text-blue-8 {
+  color: rgb(0, 0, 8);
+}
+
+.text-red-8 {
+  color: rgb(8, 0, 0);
+}
+
+.text-green-8 {
+  color: rgb(0, 8, 0);
+}
+
+.p-9 {
+  padding: 9px;
+}
+
+.m-9 {
+  margin: 9px;
+}
+
+.gap-9 {
+  gap: 9px;
+}
+
+.fs-9 {
+  font-size: 9px;
+}
+
+.br-9 {
+  border-radius: 9px;
+}
+
+.b-9 {
+  border: 9px solid black;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.bg-blue-9 {
+  background-color: rgb(0, 0, 9);
+}
+
+.bg-red-9 {
+  background-color: rgb(9, 0, 0);
+}
+
+.bg-green-9 {
+  background-color: rgb(0, 9, 0);
+}
+
+.text-blue-9 {
+  color: rgb(0, 0, 9);
+}
+
+.text-red-9 {
+  color: rgb(9, 0, 0);
+}
+
+.text-green-9 {
+  color: rgb(0, 9, 0);
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.b-10 {
+  border: 10px solid black;
+}
+
+.bg-blue-10 {
+  background-color: rgb(0, 0, 10);
+}
+
+.bg-red-10 {
+  background-color: rgb(10, 0, 0);
+}
+
+.bg-green-10 {
+  background-color: rgb(0, 10, 0);
+}
+
+.text-blue-10 {
+  color: rgb(0, 0, 10);
+}
+
+.text-red-10 {
+  color: rgb(10, 0, 0);
+}
+
+.text-green-10 {
+  color: rgb(0, 10, 0);
+}
+
+.p-11 {
+  padding: 11px;
+}
+
+.m-11 {
+  margin: 11px;
+}
+
+.gap-11 {
+  gap: 11px;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.br-11 {
+  border-radius: 11px;
+}
+
+.bg-blue-11 {
+  background-color: rgb(0, 0, 11);
+}
+
+.bg-red-11 {
+  background-color: rgb(11, 0, 0);
+}
+
+.bg-green-11 {
+  background-color: rgb(0, 11, 0);
+}
+
+.text-blue-11 {
+  color: rgb(0, 0, 11);
+}
+
+.text-red-11 {
+  color: rgb(11, 0, 0);
+}
+
+.text-green-11 {
+  color: rgb(0, 11, 0);
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.m-12 {
+  margin: 12px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.br-12 {
+  border-radius: 12px;
+}
+
+.bg-blue-12 {
+  background-color: rgb(0, 0, 12);
+}
+
+.bg-red-12 {
+  background-color: rgb(12, 0, 0);
+}
+
+.bg-green-12 {
+  background-color: rgb(0, 12, 0);
+}
+
+.text-blue-12 {
+  color: rgb(0, 0, 12);
+}
+
+.text-red-12 {
+  color: rgb(12, 0, 0);
+}
+
+.text-green-12 {
+  color: rgb(0, 12, 0);
+}
+
+.p-13 {
+  padding: 13px;
+}
+
+.m-13 {
+  margin: 13px;
+}
+
+.gap-13 {
+  gap: 13px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.br-13 {
+  border-radius: 13px;
+}
+
+.bg-blue-13 {
+  background-color: rgb(0, 0, 13);
+}
+
+.bg-red-13 {
+  background-color: rgb(13, 0, 0);
+}
+
+.bg-green-13 {
+  background-color: rgb(0, 13, 0);
+}
+
+.text-blue-13 {
+  color: rgb(0, 0, 13);
+}
+
+.text-red-13 {
+  color: rgb(13, 0, 0);
+}
+
+.text-green-13 {
+  color: rgb(0, 13, 0);
+}
+
+.p-14 {
+  padding: 14px;
+}
+
+.m-14 {
+  margin: 14px;
+}
+
+.gap-14 {
+  gap: 14px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.br-14 {
+  border-radius: 14px;
+}
+
+.bg-blue-14 {
+  background-color: rgb(0, 0, 14);
+}
+
+.bg-red-14 {
+  background-color: rgb(14, 0, 0);
+}
+
+.bg-green-14 {
+  background-color: rgb(0, 14, 0);
+}
+
+.text-blue-14 {
+  color: rgb(0, 0, 14);
+}
+
+.text-red-14 {
+  color: rgb(14, 0, 0);
+}
+
+.text-green-14 {
+  color: rgb(0, 14, 0);
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+
+.bg-blue-15 {
+  background-color: rgb(0, 0, 15);
+}
+
+.bg-red-15 {
+  background-color: rgb(15, 0, 0);
+}
+
+.bg-green-15 {
+  background-color: rgb(0, 15, 0);
+}
+
+.text-blue-15 {
+  color: rgb(0, 0, 15);
+}
+
+.text-red-15 {
+  color: rgb(15, 0, 0);
+}
+
+.text-green-15 {
+  color: rgb(0, 15, 0);
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.m-16 {
+  margin: 16px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.br-16 {
+  border-radius: 16px;
+}
+
+.bg-blue-16 {
+  background-color: rgb(0, 0, 16);
+}
+
+.bg-red-16 {
+  background-color: rgb(16, 0, 0);
+}
+
+.bg-green-16 {
+  background-color: rgb(0, 16, 0);
+}
+
+.text-blue-16 {
+  color: rgb(0, 0, 16);
+}
+
+.text-red-16 {
+  color: rgb(16, 0, 0);
+}
+
+.text-green-16 {
+  color: rgb(0, 16, 0);
+}
+
+.p-17 {
+  padding: 17px;
+}
+
+.m-17 {
+  margin: 17px;
+}
+
+.gap-17 {
+  gap: 17px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.br-17 {
+  border-radius: 17px;
+}
+
+.bg-blue-17 {
+  background-color: rgb(0, 0, 17);
+}
+
+.bg-red-17 {
+  background-color: rgb(17, 0, 0);
+}
+
+.bg-green-17 {
+  background-color: rgb(0, 17, 0);
+}
+
+.text-blue-17 {
+  color: rgb(0, 0, 17);
+}
+
+.text-red-17 {
+  color: rgb(17, 0, 0);
+}
+
+.text-green-17 {
+  color: rgb(0, 17, 0);
+}
+
+.p-18 {
+  padding: 18px;
+}
+
+.m-18 {
+  margin: 18px;
+}
+
+.gap-18 {
+  gap: 18px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.br-18 {
+  border-radius: 18px;
+}
+
+.bg-blue-18 {
+  background-color: rgb(0, 0, 18);
+}
+
+.bg-red-18 {
+  background-color: rgb(18, 0, 0);
+}
+
+.bg-green-18 {
+  background-color: rgb(0, 18, 0);
+}
+
+.text-blue-18 {
+  color: rgb(0, 0, 18);
+}
+
+.text-red-18 {
+  color: rgb(18, 0, 0);
+}
+
+.text-green-18 {
+  color: rgb(0, 18, 0);
+}
+
+.p-19 {
+  padding: 19px;
+}
+
+.m-19 {
+  margin: 19px;
+}
+
+.gap-19 {
+  gap: 19px;
+}
+
+.fs-19 {
+  font-size: 19px;
+}
+
+.br-19 {
+  border-radius: 19px;
+}
+
+.bg-blue-19 {
+  background-color: rgb(0, 0, 19);
+}
+
+.bg-red-19 {
+  background-color: rgb(19, 0, 0);
+}
+
+.bg-green-19 {
+  background-color: rgb(0, 19, 0);
+}
+
+.text-blue-19 {
+  color: rgb(0, 0, 19);
+}
+
+.text-red-19 {
+  color: rgb(19, 0, 0);
+}
+
+.text-green-19 {
+  color: rgb(0, 19, 0);
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.bg-blue-20 {
+  background-color: rgb(0, 0, 20);
+}
+
+.bg-red-20 {
+  background-color: rgb(20, 0, 0);
+}
+
+.bg-green-20 {
+  background-color: rgb(0, 20, 0);
+}
+
+.text-blue-20 {
+  color: rgb(0, 0, 20);
+}
+
+.text-red-20 {
+  color: rgb(20, 0, 0);
+}
+
+.text-green-20 {
+  color: rgb(0, 20, 0);
+}
+
+.p-21 {
+  padding: 21px;
+}
+
+.m-21 {
+  margin: 21px;
+}
+
+.gap-21 {
+  gap: 21px;
+}
+
+.fs-21 {
+  font-size: 21px;
+}
+
+.br-21 {
+  border-radius: 21px;
+}
+
+.bg-blue-21 {
+  background-color: rgb(0, 0, 21);
+}
+
+.bg-red-21 {
+  background-color: rgb(21, 0, 0);
+}
+
+.bg-green-21 {
+  background-color: rgb(0, 21, 0);
+}
+
+.text-blue-21 {
+  color: rgb(0, 0, 21);
+}
+
+.text-red-21 {
+  color: rgb(21, 0, 0);
+}
+
+.text-green-21 {
+  color: rgb(0, 21, 0);
+}
+
+.p-22 {
+  padding: 22px;
+}
+
+.m-22 {
+  margin: 22px;
+}
+
+.gap-22 {
+  gap: 22px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.br-22 {
+  border-radius: 22px;
+}
+
+.bg-blue-22 {
+  background-color: rgb(0, 0, 22);
+}
+
+.bg-red-22 {
+  background-color: rgb(22, 0, 0);
+}
+
+.bg-green-22 {
+  background-color: rgb(0, 22, 0);
+}
+
+.text-blue-22 {
+  color: rgb(0, 0, 22);
+}
+
+.text-red-22 {
+  color: rgb(22, 0, 0);
+}
+
+.text-green-22 {
+  color: rgb(0, 22, 0);
+}
+
+.p-23 {
+  padding: 23px;
+}
+
+.m-23 {
+  margin: 23px;
+}
+
+.gap-23 {
+  gap: 23px;
+}
+
+.fs-23 {
+  font-size: 23px;
+}
+
+.br-23 {
+  border-radius: 23px;
+}
+
+.bg-blue-23 {
+  background-color: rgb(0, 0, 23);
+}
+
+.bg-red-23 {
+  background-color: rgb(23, 0, 0);
+}
+
+.bg-green-23 {
+  background-color: rgb(0, 23, 0);
+}
+
+.text-blue-23 {
+  color: rgb(0, 0, 23);
+}
+
+.text-red-23 {
+  color: rgb(23, 0, 0);
+}
+
+.text-green-23 {
+  color: rgb(0, 23, 0);
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.m-24 {
+  margin: 24px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.br-24 {
+  border-radius: 24px;
+}
+
+.bg-blue-24 {
+  background-color: rgb(0, 0, 24);
+}
+
+.bg-red-24 {
+  background-color: rgb(24, 0, 0);
+}
+
+.bg-green-24 {
+  background-color: rgb(0, 24, 0);
+}
+
+.text-blue-24 {
+  color: rgb(0, 0, 24);
+}
+
+.text-red-24 {
+  color: rgb(24, 0, 0);
+}
+
+.text-green-24 {
+  color: rgb(0, 24, 0);
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.m-25 {
+  margin: 25px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.br-25 {
+  border-radius: 25px;
+}
+
+.bg-blue-25 {
+  background-color: rgb(0, 0, 25);
+}
+
+.bg-red-25 {
+  background-color: rgb(25, 0, 0);
+}
+
+.bg-green-25 {
+  background-color: rgb(0, 25, 0);
+}
+
+.text-blue-25 {
+  color: rgb(0, 0, 25);
+}
+
+.text-red-25 {
+  color: rgb(25, 0, 0);
+}
+
+.text-green-25 {
+  color: rgb(0, 25, 0);
+}
+
+.p-26 {
+  padding: 26px;
+}
+
+.m-26 {
+  margin: 26px;
+}
+
+.gap-26 {
+  gap: 26px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.br-26 {
+  border-radius: 26px;
+}
+
+.bg-blue-26 {
+  background-color: rgb(0, 0, 26);
+}
+
+.bg-red-26 {
+  background-color: rgb(26, 0, 0);
+}
+
+.bg-green-26 {
+  background-color: rgb(0, 26, 0);
+}
+
+.text-blue-26 {
+  color: rgb(0, 0, 26);
+}
+
+.text-red-26 {
+  color: rgb(26, 0, 0);
+}
+
+.text-green-26 {
+  color: rgb(0, 26, 0);
+}
+
+.p-27 {
+  padding: 27px;
+}
+
+.m-27 {
+  margin: 27px;
+}
+
+.gap-27 {
+  gap: 27px;
+}
+
+.fs-27 {
+  font-size: 27px;
+}
+
+.br-27 {
+  border-radius: 27px;
+}
+
+.bg-blue-27 {
+  background-color: rgb(0, 0, 27);
+}
+
+.bg-red-27 {
+  background-color: rgb(27, 0, 0);
+}
+
+.bg-green-27 {
+  background-color: rgb(0, 27, 0);
+}
+
+.text-blue-27 {
+  color: rgb(0, 0, 27);
+}
+
+.text-red-27 {
+  color: rgb(27, 0, 0);
+}
+
+.text-green-27 {
+  color: rgb(0, 27, 0);
+}
+
+.p-28 {
+  padding: 28px;
+}
+
+.m-28 {
+  margin: 28px;
+}
+
+.gap-28 {
+  gap: 28px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.br-28 {
+  border-radius: 28px;
+}
+
+.bg-blue-28 {
+  background-color: rgb(0, 0, 28);
+}
+
+.bg-red-28 {
+  background-color: rgb(28, 0, 0);
+}
+
+.bg-green-28 {
+  background-color: rgb(0, 28, 0);
+}
+
+.text-blue-28 {
+  color: rgb(0, 0, 28);
+}
+
+.text-red-28 {
+  color: rgb(28, 0, 0);
+}
+
+.text-green-28 {
+  color: rgb(0, 28, 0);
+}
+
+.p-29 {
+  padding: 29px;
+}
+
+.m-29 {
+  margin: 29px;
+}
+
+.gap-29 {
+  gap: 29px;
+}
+
+.fs-29 {
+  font-size: 29px;
+}
+
+.br-29 {
+  border-radius: 29px;
+}
+
+.bg-blue-29 {
+  background-color: rgb(0, 0, 29);
+}
+
+.bg-red-29 {
+  background-color: rgb(29, 0, 0);
+}
+
+.bg-green-29 {
+  background-color: rgb(0, 29, 0);
+}
+
+.text-blue-29 {
+  color: rgb(0, 0, 29);
+}
+
+.text-red-29 {
+  color: rgb(29, 0, 0);
+}
+
+.text-green-29 {
+  color: rgb(0, 29, 0);
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.br-30 {
+  border-radius: 30px;
+}
+
+.bg-blue-30 {
+  background-color: rgb(0, 0, 30);
+}
+
+.bg-red-30 {
+  background-color: rgb(30, 0, 0);
+}
+
+.bg-green-30 {
+  background-color: rgb(0, 30, 0);
+}
+
+.text-blue-30 {
+  color: rgb(0, 0, 30);
+}
+
+.text-red-30 {
+  color: rgb(30, 0, 0);
+}
+
+.text-green-30 {
+  color: rgb(0, 30, 0);
+}
+
+.bg-blue-31 {
+  background-color: rgb(0, 0, 31);
+}
+
+.bg-red-31 {
+  background-color: rgb(31, 0, 0);
+}
+
+.bg-green-31 {
+  background-color: rgb(0, 31, 0);
+}
+
+.text-blue-31 {
+  color: rgb(0, 0, 31);
+}
+
+.text-red-31 {
+  color: rgb(31, 0, 0);
+}
+
+.text-green-31 {
+  color: rgb(0, 31, 0);
+}
+
+.bg-blue-32 {
+  background-color: rgb(0, 0, 32);
+}
+
+.bg-red-32 {
+  background-color: rgb(32, 0, 0);
+}
+
+.bg-green-32 {
+  background-color: rgb(0, 32, 0);
+}
+
+.text-blue-32 {
+  color: rgb(0, 0, 32);
+}
+
+.text-red-32 {
+  color: rgb(32, 0, 0);
+}
+
+.text-green-32 {
+  color: rgb(0, 32, 0);
+}
+
+.bg-blue-33 {
+  background-color: rgb(0, 0, 33);
+}
+
+.bg-red-33 {
+  background-color: rgb(33, 0, 0);
+}
+
+.bg-green-33 {
+  background-color: rgb(0, 33, 0);
+}
+
+.text-blue-33 {
+  color: rgb(0, 0, 33);
+}
+
+.text-red-33 {
+  color: rgb(33, 0, 0);
+}
+
+.text-green-33 {
+  color: rgb(0, 33, 0);
+}
+
+.bg-blue-34 {
+  background-color: rgb(0, 0, 34);
+}
+
+.bg-red-34 {
+  background-color: rgb(34, 0, 0);
+}
+
+.bg-green-34 {
+  background-color: rgb(0, 34, 0);
+}
+
+.text-blue-34 {
+  color: rgb(0, 0, 34);
+}
+
+.text-red-34 {
+  color: rgb(34, 0, 0);
+}
+
+.text-green-34 {
+  color: rgb(0, 34, 0);
+}
+
+.bg-blue-35 {
+  background-color: rgb(0, 0, 35);
+}
+
+.bg-red-35 {
+  background-color: rgb(35, 0, 0);
+}
+
+.bg-green-35 {
+  background-color: rgb(0, 35, 0);
+}
+
+.text-blue-35 {
+  color: rgb(0, 0, 35);
+}
+
+.text-red-35 {
+  color: rgb(35, 0, 0);
+}
+
+.text-green-35 {
+  color: rgb(0, 35, 0);
+}
+
+.bg-blue-36 {
+  background-color: rgb(0, 0, 36);
+}
+
+.bg-red-36 {
+  background-color: rgb(36, 0, 0);
+}
+
+.bg-green-36 {
+  background-color: rgb(0, 36, 0);
+}
+
+.text-blue-36 {
+  color: rgb(0, 0, 36);
+}
+
+.text-red-36 {
+  color: rgb(36, 0, 0);
+}
+
+.text-green-36 {
+  color: rgb(0, 36, 0);
+}
+
+.bg-blue-37 {
+  background-color: rgb(0, 0, 37);
+}
+
+.bg-red-37 {
+  background-color: rgb(37, 0, 0);
+}
+
+.bg-green-37 {
+  background-color: rgb(0, 37, 0);
+}
+
+.text-blue-37 {
+  color: rgb(0, 0, 37);
+}
+
+.text-red-37 {
+  color: rgb(37, 0, 0);
+}
+
+.text-green-37 {
+  color: rgb(0, 37, 0);
+}
+
+.bg-blue-38 {
+  background-color: rgb(0, 0, 38);
+}
+
+.bg-red-38 {
+  background-color: rgb(38, 0, 0);
+}
+
+.bg-green-38 {
+  background-color: rgb(0, 38, 0);
+}
+
+.text-blue-38 {
+  color: rgb(0, 0, 38);
+}
+
+.text-red-38 {
+  color: rgb(38, 0, 0);
+}
+
+.text-green-38 {
+  color: rgb(0, 38, 0);
+}
+
+.bg-blue-39 {
+  background-color: rgb(0, 0, 39);
+}
+
+.bg-red-39 {
+  background-color: rgb(39, 0, 0);
+}
+
+.bg-green-39 {
+  background-color: rgb(0, 39, 0);
+}
+
+.text-blue-39 {
+  color: rgb(0, 0, 39);
+}
+
+.text-red-39 {
+  color: rgb(39, 0, 0);
+}
+
+.text-green-39 {
+  color: rgb(0, 39, 0);
+}
+
+.bg-blue-40 {
+  background-color: rgb(0, 0, 40);
+}
+
+.bg-red-40 {
+  background-color: rgb(40, 0, 0);
+}
+
+.bg-green-40 {
+  background-color: rgb(0, 40, 0);
+}
+
+.text-blue-40 {
+  color: rgb(0, 0, 40);
+}
+
+.text-red-40 {
+  color: rgb(40, 0, 0);
+}
+
+.text-green-40 {
+  color: rgb(0, 40, 0);
+}
+
+.bg-blue-41 {
+  background-color: rgb(0, 0, 41);
+}
+
+.bg-red-41 {
+  background-color: rgb(41, 0, 0);
+}
+
+.bg-green-41 {
+  background-color: rgb(0, 41, 0);
+}
+
+.text-blue-41 {
+  color: rgb(0, 0, 41);
+}
+
+.text-red-41 {
+  color: rgb(41, 0, 0);
+}
+
+.text-green-41 {
+  color: rgb(0, 41, 0);
+}
+
+.bg-blue-42 {
+  background-color: rgb(0, 0, 42);
+}
+
+.bg-red-42 {
+  background-color: rgb(42, 0, 0);
+}
+
+.bg-green-42 {
+  background-color: rgb(0, 42, 0);
+}
+
+.text-blue-42 {
+  color: rgb(0, 0, 42);
+}
+
+.text-red-42 {
+  color: rgb(42, 0, 0);
+}
+
+.text-green-42 {
+  color: rgb(0, 42, 0);
+}
+
+.bg-blue-43 {
+  background-color: rgb(0, 0, 43);
+}
+
+.bg-red-43 {
+  background-color: rgb(43, 0, 0);
+}
+
+.bg-green-43 {
+  background-color: rgb(0, 43, 0);
+}
+
+.text-blue-43 {
+  color: rgb(0, 0, 43);
+}
+
+.text-red-43 {
+  color: rgb(43, 0, 0);
+}
+
+.text-green-43 {
+  color: rgb(0, 43, 0);
+}
+
+.bg-blue-44 {
+  background-color: rgb(0, 0, 44);
+}
+
+.bg-red-44 {
+  background-color: rgb(44, 0, 0);
+}
+
+.bg-green-44 {
+  background-color: rgb(0, 44, 0);
+}
+
+.text-blue-44 {
+  color: rgb(0, 0, 44);
+}
+
+.text-red-44 {
+  color: rgb(44, 0, 0);
+}
+
+.text-green-44 {
+  color: rgb(0, 44, 0);
+}
+
+.bg-blue-45 {
+  background-color: rgb(0, 0, 45);
+}
+
+.bg-red-45 {
+  background-color: rgb(45, 0, 0);
+}
+
+.bg-green-45 {
+  background-color: rgb(0, 45, 0);
+}
+
+.text-blue-45 {
+  color: rgb(0, 0, 45);
+}
+
+.text-red-45 {
+  color: rgb(45, 0, 0);
+}
+
+.text-green-45 {
+  color: rgb(0, 45, 0);
+}
+
+.bg-blue-46 {
+  background-color: rgb(0, 0, 46);
+}
+
+.bg-red-46 {
+  background-color: rgb(46, 0, 0);
+}
+
+.bg-green-46 {
+  background-color: rgb(0, 46, 0);
+}
+
+.text-blue-46 {
+  color: rgb(0, 0, 46);
+}
+
+.text-red-46 {
+  color: rgb(46, 0, 0);
+}
+
+.text-green-46 {
+  color: rgb(0, 46, 0);
+}
+
+.bg-blue-47 {
+  background-color: rgb(0, 0, 47);
+}
+
+.bg-red-47 {
+  background-color: rgb(47, 0, 0);
+}
+
+.bg-green-47 {
+  background-color: rgb(0, 47, 0);
+}
+
+.text-blue-47 {
+  color: rgb(0, 0, 47);
+}
+
+.text-red-47 {
+  color: rgb(47, 0, 0);
+}
+
+.text-green-47 {
+  color: rgb(0, 47, 0);
+}
+
+.bg-blue-48 {
+  background-color: rgb(0, 0, 48);
+}
+
+.bg-red-48 {
+  background-color: rgb(48, 0, 0);
+}
+
+.bg-green-48 {
+  background-color: rgb(0, 48, 0);
+}
+
+.text-blue-48 {
+  color: rgb(0, 0, 48);
+}
+
+.text-red-48 {
+  color: rgb(48, 0, 0);
+}
+
+.text-green-48 {
+  color: rgb(0, 48, 0);
+}
+
+.bg-blue-49 {
+  background-color: rgb(0, 0, 49);
+}
+
+.bg-red-49 {
+  background-color: rgb(49, 0, 0);
+}
+
+.bg-green-49 {
+  background-color: rgb(0, 49, 0);
+}
+
+.text-blue-49 {
+  color: rgb(0, 0, 49);
+}
+
+.text-red-49 {
+  color: rgb(49, 0, 0);
+}
+
+.text-green-49 {
+  color: rgb(0, 49, 0);
+}
+
+.box-50 {
+  height: 50px;
+  width: 50px;
+}
+
+.bg-blue-50 {
+  background-color: rgb(0, 0, 50);
+}
+
+.bg-red-50 {
+  background-color: rgb(50, 0, 0);
+}
+
+.bg-green-50 {
+  background-color: rgb(0, 50, 0);
+}
+
+.text-blue-50 {
+  color: rgb(0, 0, 50);
+}
+
+.text-red-50 {
+  color: rgb(50, 0, 0);
+}
+
+.text-green-50 {
+  color: rgb(0, 50, 0);
+}
+
+.box-51 {
+  height: 51px;
+  width: 51px;
+}
+
+.bg-blue-51 {
+  background-color: rgb(0, 0, 51);
+}
+
+.bg-red-51 {
+  background-color: rgb(51, 0, 0);
+}
+
+.bg-green-51 {
+  background-color: rgb(0, 51, 0);
+}
+
+.text-blue-51 {
+  color: rgb(0, 0, 51);
+}
+
+.text-red-51 {
+  color: rgb(51, 0, 0);
+}
+
+.text-green-51 {
+  color: rgb(0, 51, 0);
+}
+
+.box-52 {
+  height: 52px;
+  width: 52px;
+}
+
+.bg-blue-52 {
+  background-color: rgb(0, 0, 52);
+}
+
+.bg-red-52 {
+  background-color: rgb(52, 0, 0);
+}
+
+.bg-green-52 {
+  background-color: rgb(0, 52, 0);
+}
+
+.text-blue-52 {
+  color: rgb(0, 0, 52);
+}
+
+.text-red-52 {
+  color: rgb(52, 0, 0);
+}
+
+.text-green-52 {
+  color: rgb(0, 52, 0);
+}
+
+.box-53 {
+  height: 53px;
+  width: 53px;
+}
+
+.bg-blue-53 {
+  background-color: rgb(0, 0, 53);
+}
+
+.bg-red-53 {
+  background-color: rgb(53, 0, 0);
+}
+
+.bg-green-53 {
+  background-color: rgb(0, 53, 0);
+}
+
+.text-blue-53 {
+  color: rgb(0, 0, 53);
+}
+
+.text-red-53 {
+  color: rgb(53, 0, 0);
+}
+
+.text-green-53 {
+  color: rgb(0, 53, 0);
+}
+
+.box-54 {
+  height: 54px;
+  width: 54px;
+}
+
+.bg-blue-54 {
+  background-color: rgb(0, 0, 54);
+}
+
+.bg-red-54 {
+  background-color: rgb(54, 0, 0);
+}
+
+.bg-green-54 {
+  background-color: rgb(0, 54, 0);
+}
+
+.text-blue-54 {
+  color: rgb(0, 0, 54);
+}
+
+.text-red-54 {
+  color: rgb(54, 0, 0);
+}
+
+.text-green-54 {
+  color: rgb(0, 54, 0);
+}
+
+.box-55 {
+  height: 55px;
+  width: 55px;
+}
+
+.bg-blue-55 {
+  background-color: rgb(0, 0, 55);
+}
+
+.bg-red-55 {
+  background-color: rgb(55, 0, 0);
+}
+
+.bg-green-55 {
+  background-color: rgb(0, 55, 0);
+}
+
+.text-blue-55 {
+  color: rgb(0, 0, 55);
+}
+
+.text-red-55 {
+  color: rgb(55, 0, 0);
+}
+
+.text-green-55 {
+  color: rgb(0, 55, 0);
+}
+
+.box-56 {
+  height: 56px;
+  width: 56px;
+}
+
+.bg-blue-56 {
+  background-color: rgb(0, 0, 56);
+}
+
+.bg-red-56 {
+  background-color: rgb(56, 0, 0);
+}
+
+.bg-green-56 {
+  background-color: rgb(0, 56, 0);
+}
+
+.text-blue-56 {
+  color: rgb(0, 0, 56);
+}
+
+.text-red-56 {
+  color: rgb(56, 0, 0);
+}
+
+.text-green-56 {
+  color: rgb(0, 56, 0);
+}
+
+.box-57 {
+  height: 57px;
+  width: 57px;
+}
+
+.bg-blue-57 {
+  background-color: rgb(0, 0, 57);
+}
+
+.bg-red-57 {
+  background-color: rgb(57, 0, 0);
+}
+
+.bg-green-57 {
+  background-color: rgb(0, 57, 0);
+}
+
+.text-blue-57 {
+  color: rgb(0, 0, 57);
+}
+
+.text-red-57 {
+  color: rgb(57, 0, 0);
+}
+
+.text-green-57 {
+  color: rgb(0, 57, 0);
+}
+
+.box-58 {
+  height: 58px;
+  width: 58px;
+}
+
+.bg-blue-58 {
+  background-color: rgb(0, 0, 58);
+}
+
+.bg-red-58 {
+  background-color: rgb(58, 0, 0);
+}
+
+.bg-green-58 {
+  background-color: rgb(0, 58, 0);
+}
+
+.text-blue-58 {
+  color: rgb(0, 0, 58);
+}
+
+.text-red-58 {
+  color: rgb(58, 0, 0);
+}
+
+.text-green-58 {
+  color: rgb(0, 58, 0);
+}
+
+.box-59 {
+  height: 59px;
+  width: 59px;
+}
+
+.bg-blue-59 {
+  background-color: rgb(0, 0, 59);
+}
+
+.bg-red-59 {
+  background-color: rgb(59, 0, 0);
+}
+
+.bg-green-59 {
+  background-color: rgb(0, 59, 0);
+}
+
+.text-blue-59 {
+  color: rgb(0, 0, 59);
+}
+
+.text-red-59 {
+  color: rgb(59, 0, 0);
+}
+
+.text-green-59 {
+  color: rgb(0, 59, 0);
+}
+
+.box-60 {
+  height: 60px;
+  width: 60px;
+}
+
+.bg-blue-60 {
+  background-color: rgb(0, 0, 60);
+}
+
+.bg-red-60 {
+  background-color: rgb(60, 0, 0);
+}
+
+.bg-green-60 {
+  background-color: rgb(0, 60, 0);
+}
+
+.text-blue-60 {
+  color: rgb(0, 0, 60);
+}
+
+.text-red-60 {
+  color: rgb(60, 0, 0);
+}
+
+.text-green-60 {
+  color: rgb(0, 60, 0);
+}
+
+.box-61 {
+  height: 61px;
+  width: 61px;
+}
+
+.bg-blue-61 {
+  background-color: rgb(0, 0, 61);
+}
+
+.bg-red-61 {
+  background-color: rgb(61, 0, 0);
+}
+
+.bg-green-61 {
+  background-color: rgb(0, 61, 0);
+}
+
+.text-blue-61 {
+  color: rgb(0, 0, 61);
+}
+
+.text-red-61 {
+  color: rgb(61, 0, 0);
+}
+
+.text-green-61 {
+  color: rgb(0, 61, 0);
+}
+
+.box-62 {
+  height: 62px;
+  width: 62px;
+}
+
+.bg-blue-62 {
+  background-color: rgb(0, 0, 62);
+}
+
+.bg-red-62 {
+  background-color: rgb(62, 0, 0);
+}
+
+.bg-green-62 {
+  background-color: rgb(0, 62, 0);
+}
+
+.text-blue-62 {
+  color: rgb(0, 0, 62);
+}
+
+.text-red-62 {
+  color: rgb(62, 0, 0);
+}
+
+.text-green-62 {
+  color: rgb(0, 62, 0);
+}
+
+.box-63 {
+  height: 63px;
+  width: 63px;
+}
+
+.bg-blue-63 {
+  background-color: rgb(0, 0, 63);
+}
+
+.bg-red-63 {
+  background-color: rgb(63, 0, 0);
+}
+
+.bg-green-63 {
+  background-color: rgb(0, 63, 0);
+}
+
+.text-blue-63 {
+  color: rgb(0, 0, 63);
+}
+
+.text-red-63 {
+  color: rgb(63, 0, 0);
+}
+
+.text-green-63 {
+  color: rgb(0, 63, 0);
+}
+
+.box-64 {
+  height: 64px;
+  width: 64px;
+}
+
+.bg-blue-64 {
+  background-color: rgb(0, 0, 64);
+}
+
+.bg-red-64 {
+  background-color: rgb(64, 0, 0);
+}
+
+.bg-green-64 {
+  background-color: rgb(0, 64, 0);
+}
+
+.text-blue-64 {
+  color: rgb(0, 0, 64);
+}
+
+.text-red-64 {
+  color: rgb(64, 0, 0);
+}
+
+.text-green-64 {
+  color: rgb(0, 64, 0);
+}
+
+.box-65 {
+  height: 65px;
+  width: 65px;
+}
+
+.bg-blue-65 {
+  background-color: rgb(0, 0, 65);
+}
+
+.bg-red-65 {
+  background-color: rgb(65, 0, 0);
+}
+
+.bg-green-65 {
+  background-color: rgb(0, 65, 0);
+}
+
+.text-blue-65 {
+  color: rgb(0, 0, 65);
+}
+
+.text-red-65 {
+  color: rgb(65, 0, 0);
+}
+
+.text-green-65 {
+  color: rgb(0, 65, 0);
+}
+
+.box-66 {
+  height: 66px;
+  width: 66px;
+}
+
+.bg-blue-66 {
+  background-color: rgb(0, 0, 66);
+}
+
+.bg-red-66 {
+  background-color: rgb(66, 0, 0);
+}
+
+.bg-green-66 {
+  background-color: rgb(0, 66, 0);
+}
+
+.text-blue-66 {
+  color: rgb(0, 0, 66);
+}
+
+.text-red-66 {
+  color: rgb(66, 0, 0);
+}
+
+.text-green-66 {
+  color: rgb(0, 66, 0);
+}
+
+.box-67 {
+  height: 67px;
+  width: 67px;
+}
+
+.bg-blue-67 {
+  background-color: rgb(0, 0, 67);
+}
+
+.bg-red-67 {
+  background-color: rgb(67, 0, 0);
+}
+
+.bg-green-67 {
+  background-color: rgb(0, 67, 0);
+}
+
+.text-blue-67 {
+  color: rgb(0, 0, 67);
+}
+
+.text-red-67 {
+  color: rgb(67, 0, 0);
+}
+
+.text-green-67 {
+  color: rgb(0, 67, 0);
+}
+
+.box-68 {
+  height: 68px;
+  width: 68px;
+}
+
+.bg-blue-68 {
+  background-color: rgb(0, 0, 68);
+}
+
+.bg-red-68 {
+  background-color: rgb(68, 0, 0);
+}
+
+.bg-green-68 {
+  background-color: rgb(0, 68, 0);
+}
+
+.text-blue-68 {
+  color: rgb(0, 0, 68);
+}
+
+.text-red-68 {
+  color: rgb(68, 0, 0);
+}
+
+.text-green-68 {
+  color: rgb(0, 68, 0);
+}
+
+.box-69 {
+  height: 69px;
+  width: 69px;
+}
+
+.bg-blue-69 {
+  background-color: rgb(0, 0, 69);
+}
+
+.bg-red-69 {
+  background-color: rgb(69, 0, 0);
+}
+
+.bg-green-69 {
+  background-color: rgb(0, 69, 0);
+}
+
+.text-blue-69 {
+  color: rgb(0, 0, 69);
+}
+
+.text-red-69 {
+  color: rgb(69, 0, 0);
+}
+
+.text-green-69 {
+  color: rgb(0, 69, 0);
+}
+
+.box-70 {
+  height: 70px;
+  width: 70px;
+}
+
+.bg-blue-70 {
+  background-color: rgb(0, 0, 70);
+}
+
+.bg-red-70 {
+  background-color: rgb(70, 0, 0);
+}
+
+.bg-green-70 {
+  background-color: rgb(0, 70, 0);
+}
+
+.text-blue-70 {
+  color: rgb(0, 0, 70);
+}
+
+.text-red-70 {
+  color: rgb(70, 0, 0);
+}
+
+.text-green-70 {
+  color: rgb(0, 70, 0);
+}
+
+.box-71 {
+  height: 71px;
+  width: 71px;
+}
+
+.bg-blue-71 {
+  background-color: rgb(0, 0, 71);
+}
+
+.bg-red-71 {
+  background-color: rgb(71, 0, 0);
+}
+
+.bg-green-71 {
+  background-color: rgb(0, 71, 0);
+}
+
+.text-blue-71 {
+  color: rgb(0, 0, 71);
+}
+
+.text-red-71 {
+  color: rgb(71, 0, 0);
+}
+
+.text-green-71 {
+  color: rgb(0, 71, 0);
+}
+
+.box-72 {
+  height: 72px;
+  width: 72px;
+}
+
+.bg-blue-72 {
+  background-color: rgb(0, 0, 72);
+}
+
+.bg-red-72 {
+  background-color: rgb(72, 0, 0);
+}
+
+.bg-green-72 {
+  background-color: rgb(0, 72, 0);
+}
+
+.text-blue-72 {
+  color: rgb(0, 0, 72);
+}
+
+.text-red-72 {
+  color: rgb(72, 0, 0);
+}
+
+.text-green-72 {
+  color: rgb(0, 72, 0);
+}
+
+.box-73 {
+  height: 73px;
+  width: 73px;
+}
+
+.bg-blue-73 {
+  background-color: rgb(0, 0, 73);
+}
+
+.bg-red-73 {
+  background-color: rgb(73, 0, 0);
+}
+
+.bg-green-73 {
+  background-color: rgb(0, 73, 0);
+}
+
+.text-blue-73 {
+  color: rgb(0, 0, 73);
+}
+
+.text-red-73 {
+  color: rgb(73, 0, 0);
+}
+
+.text-green-73 {
+  color: rgb(0, 73, 0);
+}
+
+.box-74 {
+  height: 74px;
+  width: 74px;
+}
+
+.bg-blue-74 {
+  background-color: rgb(0, 0, 74);
+}
+
+.bg-red-74 {
+  background-color: rgb(74, 0, 0);
+}
+
+.bg-green-74 {
+  background-color: rgb(0, 74, 0);
+}
+
+.text-blue-74 {
+  color: rgb(0, 0, 74);
+}
+
+.text-red-74 {
+  color: rgb(74, 0, 0);
+}
+
+.text-green-74 {
+  color: rgb(0, 74, 0);
+}
+
+.box-75 {
+  height: 75px;
+  width: 75px;
+}
+
+.bg-blue-75 {
+  background-color: rgb(0, 0, 75);
+}
+
+.bg-red-75 {
+  background-color: rgb(75, 0, 0);
+}
+
+.bg-green-75 {
+  background-color: rgb(0, 75, 0);
+}
+
+.text-blue-75 {
+  color: rgb(0, 0, 75);
+}
+
+.text-red-75 {
+  color: rgb(75, 0, 0);
+}
+
+.text-green-75 {
+  color: rgb(0, 75, 0);
+}
+
+.box-76 {
+  height: 76px;
+  width: 76px;
+}
+
+.bg-blue-76 {
+  background-color: rgb(0, 0, 76);
+}
+
+.bg-red-76 {
+  background-color: rgb(76, 0, 0);
+}
+
+.bg-green-76 {
+  background-color: rgb(0, 76, 0);
+}
+
+.text-blue-76 {
+  color: rgb(0, 0, 76);
+}
+
+.text-red-76 {
+  color: rgb(76, 0, 0);
+}
+
+.text-green-76 {
+  color: rgb(0, 76, 0);
+}
+
+.box-77 {
+  height: 77px;
+  width: 77px;
+}
+
+.bg-blue-77 {
+  background-color: rgb(0, 0, 77);
+}
+
+.bg-red-77 {
+  background-color: rgb(77, 0, 0);
+}
+
+.bg-green-77 {
+  background-color: rgb(0, 77, 0);
+}
+
+.text-blue-77 {
+  color: rgb(0, 0, 77);
+}
+
+.text-red-77 {
+  color: rgb(77, 0, 0);
+}
+
+.text-green-77 {
+  color: rgb(0, 77, 0);
+}
+
+.box-78 {
+  height: 78px;
+  width: 78px;
+}
+
+.bg-blue-78 {
+  background-color: rgb(0, 0, 78);
+}
+
+.bg-red-78 {
+  background-color: rgb(78, 0, 0);
+}
+
+.bg-green-78 {
+  background-color: rgb(0, 78, 0);
+}
+
+.text-blue-78 {
+  color: rgb(0, 0, 78);
+}
+
+.text-red-78 {
+  color: rgb(78, 0, 0);
+}
+
+.text-green-78 {
+  color: rgb(0, 78, 0);
+}
+
+.box-79 {
+  height: 79px;
+  width: 79px;
+}
+
+.bg-blue-79 {
+  background-color: rgb(0, 0, 79);
+}
+
+.bg-red-79 {
+  background-color: rgb(79, 0, 0);
+}
+
+.bg-green-79 {
+  background-color: rgb(0, 79, 0);
+}
+
+.text-blue-79 {
+  color: rgb(0, 0, 79);
+}
+
+.text-red-79 {
+  color: rgb(79, 0, 0);
+}
+
+.text-green-79 {
+  color: rgb(0, 79, 0);
+}
+
+.box-80 {
+  height: 80px;
+  width: 80px;
+}
+
+.bg-blue-80 {
+  background-color: rgb(0, 0, 80);
+}
+
+.bg-red-80 {
+  background-color: rgb(80, 0, 0);
+}
+
+.bg-green-80 {
+  background-color: rgb(0, 80, 0);
+}
+
+.text-blue-80 {
+  color: rgb(0, 0, 80);
+}
+
+.text-red-80 {
+  color: rgb(80, 0, 0);
+}
+
+.text-green-80 {
+  color: rgb(0, 80, 0);
+}
+
+.box-81 {
+  height: 81px;
+  width: 81px;
+}
+
+.bg-blue-81 {
+  background-color: rgb(0, 0, 81);
+}
+
+.bg-red-81 {
+  background-color: rgb(81, 0, 0);
+}
+
+.bg-green-81 {
+  background-color: rgb(0, 81, 0);
+}
+
+.text-blue-81 {
+  color: rgb(0, 0, 81);
+}
+
+.text-red-81 {
+  color: rgb(81, 0, 0);
+}
+
+.text-green-81 {
+  color: rgb(0, 81, 0);
+}
+
+.box-82 {
+  height: 82px;
+  width: 82px;
+}
+
+.bg-blue-82 {
+  background-color: rgb(0, 0, 82);
+}
+
+.bg-red-82 {
+  background-color: rgb(82, 0, 0);
+}
+
+.bg-green-82 {
+  background-color: rgb(0, 82, 0);
+}
+
+.text-blue-82 {
+  color: rgb(0, 0, 82);
+}
+
+.text-red-82 {
+  color: rgb(82, 0, 0);
+}
+
+.text-green-82 {
+  color: rgb(0, 82, 0);
+}
+
+.box-83 {
+  height: 83px;
+  width: 83px;
+}
+
+.bg-blue-83 {
+  background-color: rgb(0, 0, 83);
+}
+
+.bg-red-83 {
+  background-color: rgb(83, 0, 0);
+}
+
+.bg-green-83 {
+  background-color: rgb(0, 83, 0);
+}
+
+.text-blue-83 {
+  color: rgb(0, 0, 83);
+}
+
+.text-red-83 {
+  color: rgb(83, 0, 0);
+}
+
+.text-green-83 {
+  color: rgb(0, 83, 0);
+}
+
+.box-84 {
+  height: 84px;
+  width: 84px;
+}
+
+.bg-blue-84 {
+  background-color: rgb(0, 0, 84);
+}
+
+.bg-red-84 {
+  background-color: rgb(84, 0, 0);
+}
+
+.bg-green-84 {
+  background-color: rgb(0, 84, 0);
+}
+
+.text-blue-84 {
+  color: rgb(0, 0, 84);
+}
+
+.text-red-84 {
+  color: rgb(84, 0, 0);
+}
+
+.text-green-84 {
+  color: rgb(0, 84, 0);
+}
+
+.box-85 {
+  height: 85px;
+  width: 85px;
+}
+
+.bg-blue-85 {
+  background-color: rgb(0, 0, 85);
+}
+
+.bg-red-85 {
+  background-color: rgb(85, 0, 0);
+}
+
+.bg-green-85 {
+  background-color: rgb(0, 85, 0);
+}
+
+.text-blue-85 {
+  color: rgb(0, 0, 85);
+}
+
+.text-red-85 {
+  color: rgb(85, 0, 0);
+}
+
+.text-green-85 {
+  color: rgb(0, 85, 0);
+}
+
+.box-86 {
+  height: 86px;
+  width: 86px;
+}
+
+.bg-blue-86 {
+  background-color: rgb(0, 0, 86);
+}
+
+.bg-red-86 {
+  background-color: rgb(86, 0, 0);
+}
+
+.bg-green-86 {
+  background-color: rgb(0, 86, 0);
+}
+
+.text-blue-86 {
+  color: rgb(0, 0, 86);
+}
+
+.text-red-86 {
+  color: rgb(86, 0, 0);
+}
+
+.text-green-86 {
+  color: rgb(0, 86, 0);
+}
+
+.box-87 {
+  height: 87px;
+  width: 87px;
+}
+
+.bg-blue-87 {
+  background-color: rgb(0, 0, 87);
+}
+
+.bg-red-87 {
+  background-color: rgb(87, 0, 0);
+}
+
+.bg-green-87 {
+  background-color: rgb(0, 87, 0);
+}
+
+.text-blue-87 {
+  color: rgb(0, 0, 87);
+}
+
+.text-red-87 {
+  color: rgb(87, 0, 0);
+}
+
+.text-green-87 {
+  color: rgb(0, 87, 0);
+}
+
+.box-88 {
+  height: 88px;
+  width: 88px;
+}
+
+.bg-blue-88 {
+  background-color: rgb(0, 0, 88);
+}
+
+.bg-red-88 {
+  background-color: rgb(88, 0, 0);
+}
+
+.bg-green-88 {
+  background-color: rgb(0, 88, 0);
+}
+
+.text-blue-88 {
+  color: rgb(0, 0, 88);
+}
+
+.text-red-88 {
+  color: rgb(88, 0, 0);
+}
+
+.text-green-88 {
+  color: rgb(0, 88, 0);
+}
+
+.box-89 {
+  height: 89px;
+  width: 89px;
+}
+
+.bg-blue-89 {
+  background-color: rgb(0, 0, 89);
+}
+
+.bg-red-89 {
+  background-color: rgb(89, 0, 0);
+}
+
+.bg-green-89 {
+  background-color: rgb(0, 89, 0);
+}
+
+.text-blue-89 {
+  color: rgb(0, 0, 89);
+}
+
+.text-red-89 {
+  color: rgb(89, 0, 0);
+}
+
+.text-green-89 {
+  color: rgb(0, 89, 0);
+}
+
+.box-90 {
+  height: 90px;
+  width: 90px;
+}
+
+.bg-blue-90 {
+  background-color: rgb(0, 0, 90);
+}
+
+.bg-red-90 {
+  background-color: rgb(90, 0, 0);
+}
+
+.bg-green-90 {
+  background-color: rgb(0, 90, 0);
+}
+
+.text-blue-90 {
+  color: rgb(0, 0, 90);
+}
+
+.text-red-90 {
+  color: rgb(90, 0, 0);
+}
+
+.text-green-90 {
+  color: rgb(0, 90, 0);
+}
+
+.box-91 {
+  height: 91px;
+  width: 91px;
+}
+
+.bg-blue-91 {
+  background-color: rgb(0, 0, 91);
+}
+
+.bg-red-91 {
+  background-color: rgb(91, 0, 0);
+}
+
+.bg-green-91 {
+  background-color: rgb(0, 91, 0);
+}
+
+.text-blue-91 {
+  color: rgb(0, 0, 91);
+}
+
+.text-red-91 {
+  color: rgb(91, 0, 0);
+}
+
+.text-green-91 {
+  color: rgb(0, 91, 0);
+}
+
+.box-92 {
+  height: 92px;
+  width: 92px;
+}
+
+.bg-blue-92 {
+  background-color: rgb(0, 0, 92);
+}
+
+.bg-red-92 {
+  background-color: rgb(92, 0, 0);
+}
+
+.bg-green-92 {
+  background-color: rgb(0, 92, 0);
+}
+
+.text-blue-92 {
+  color: rgb(0, 0, 92);
+}
+
+.text-red-92 {
+  color: rgb(92, 0, 0);
+}
+
+.text-green-92 {
+  color: rgb(0, 92, 0);
+}
+
+.box-93 {
+  height: 93px;
+  width: 93px;
+}
+
+.bg-blue-93 {
+  background-color: rgb(0, 0, 93);
+}
+
+.bg-red-93 {
+  background-color: rgb(93, 0, 0);
+}
+
+.bg-green-93 {
+  background-color: rgb(0, 93, 0);
+}
+
+.text-blue-93 {
+  color: rgb(0, 0, 93);
+}
+
+.text-red-93 {
+  color: rgb(93, 0, 0);
+}
+
+.text-green-93 {
+  color: rgb(0, 93, 0);
+}
+
+.box-94 {
+  height: 94px;
+  width: 94px;
+}
+
+.bg-blue-94 {
+  background-color: rgb(0, 0, 94);
+}
+
+.bg-red-94 {
+  background-color: rgb(94, 0, 0);
+}
+
+.bg-green-94 {
+  background-color: rgb(0, 94, 0);
+}
+
+.text-blue-94 {
+  color: rgb(0, 0, 94);
+}
+
+.text-red-94 {
+  color: rgb(94, 0, 0);
+}
+
+.text-green-94 {
+  color: rgb(0, 94, 0);
+}
+
+.box-95 {
+  height: 95px;
+  width: 95px;
+}
+
+.bg-blue-95 {
+  background-color: rgb(0, 0, 95);
+}
+
+.bg-red-95 {
+  background-color: rgb(95, 0, 0);
+}
+
+.bg-green-95 {
+  background-color: rgb(0, 95, 0);
+}
+
+.text-blue-95 {
+  color: rgb(0, 0, 95);
+}
+
+.text-red-95 {
+  color: rgb(95, 0, 0);
+}
+
+.text-green-95 {
+  color: rgb(0, 95, 0);
+}
+
+.box-96 {
+  height: 96px;
+  width: 96px;
+}
+
+.bg-blue-96 {
+  background-color: rgb(0, 0, 96);
+}
+
+.bg-red-96 {
+  background-color: rgb(96, 0, 0);
+}
+
+.bg-green-96 {
+  background-color: rgb(0, 96, 0);
+}
+
+.text-blue-96 {
+  color: rgb(0, 0, 96);
+}
+
+.text-red-96 {
+  color: rgb(96, 0, 0);
+}
+
+.text-green-96 {
+  color: rgb(0, 96, 0);
+}
+
+.box-97 {
+  height: 97px;
+  width: 97px;
+}
+
+.bg-blue-97 {
+  background-color: rgb(0, 0, 97);
+}
+
+.bg-red-97 {
+  background-color: rgb(97, 0, 0);
+}
+
+.bg-green-97 {
+  background-color: rgb(0, 97, 0);
+}
+
+.text-blue-97 {
+  color: rgb(0, 0, 97);
+}
+
+.text-red-97 {
+  color: rgb(97, 0, 0);
+}
+
+.text-green-97 {
+  color: rgb(0, 97, 0);
+}
+
+.box-98 {
+  height: 98px;
+  width: 98px;
+}
+
+.bg-blue-98 {
+  background-color: rgb(0, 0, 98);
+}
+
+.bg-red-98 {
+  background-color: rgb(98, 0, 0);
+}
+
+.bg-green-98 {
+  background-color: rgb(0, 98, 0);
+}
+
+.text-blue-98 {
+  color: rgb(0, 0, 98);
+}
+
+.text-red-98 {
+  color: rgb(98, 0, 0);
+}
+
+.text-green-98 {
+  color: rgb(0, 98, 0);
+}
+
+.box-99 {
+  height: 99px;
+  width: 99px;
+}
+
+.bg-blue-99 {
+  background-color: rgb(0, 0, 99);
+}
+
+.bg-red-99 {
+  background-color: rgb(99, 0, 0);
+}
+
+.bg-green-99 {
+  background-color: rgb(0, 99, 0);
+}
+
+.text-blue-99 {
+  color: rgb(0, 0, 99);
+}
+
+.text-red-99 {
+  color: rgb(99, 0, 0);
+}
+
+.text-green-99 {
+  color: rgb(0, 99, 0);
+}
+
+.box-100 {
+  height: 100px;
+  width: 100px;
+}
+
+.bg-blue-100 {
+  background-color: rgb(0, 0, 100);
+}
+
+.bg-red-100 {
+  background-color: rgb(100, 0, 0);
+}
+
+.bg-green-100 {
+  background-color: rgb(0, 100, 0);
+}
+
+.text-blue-100 {
+  color: rgb(0, 0, 100);
+}
+
+.text-red-100 {
+  color: rgb(100, 0, 0);
+}
+
+.text-green-100 {
+  color: rgb(0, 100, 0);
+}
+
+.bg-blue-101 {
+  background-color: rgb(0, 0, 101);
+}
+
+.bg-red-101 {
+  background-color: rgb(101, 0, 0);
+}
+
+.bg-green-101 {
+  background-color: rgb(0, 101, 0);
+}
+
+.text-blue-101 {
+  color: rgb(0, 0, 101);
+}
+
+.text-red-101 {
+  color: rgb(101, 0, 0);
+}
+
+.text-green-101 {
+  color: rgb(0, 101, 0);
+}
+
+.bg-blue-102 {
+  background-color: rgb(0, 0, 102);
+}
+
+.bg-red-102 {
+  background-color: rgb(102, 0, 0);
+}
+
+.bg-green-102 {
+  background-color: rgb(0, 102, 0);
+}
+
+.text-blue-102 {
+  color: rgb(0, 0, 102);
+}
+
+.text-red-102 {
+  color: rgb(102, 0, 0);
+}
+
+.text-green-102 {
+  color: rgb(0, 102, 0);
+}
+
+.bg-blue-103 {
+  background-color: rgb(0, 0, 103);
+}
+
+.bg-red-103 {
+  background-color: rgb(103, 0, 0);
+}
+
+.bg-green-103 {
+  background-color: rgb(0, 103, 0);
+}
+
+.text-blue-103 {
+  color: rgb(0, 0, 103);
+}
+
+.text-red-103 {
+  color: rgb(103, 0, 0);
+}
+
+.text-green-103 {
+  color: rgb(0, 103, 0);
+}
+
+.bg-blue-104 {
+  background-color: rgb(0, 0, 104);
+}
+
+.bg-red-104 {
+  background-color: rgb(104, 0, 0);
+}
+
+.bg-green-104 {
+  background-color: rgb(0, 104, 0);
+}
+
+.text-blue-104 {
+  color: rgb(0, 0, 104);
+}
+
+.text-red-104 {
+  color: rgb(104, 0, 0);
+}
+
+.text-green-104 {
+  color: rgb(0, 104, 0);
+}
+
+.bg-blue-105 {
+  background-color: rgb(0, 0, 105);
+}
+
+.bg-red-105 {
+  background-color: rgb(105, 0, 0);
+}
+
+.bg-green-105 {
+  background-color: rgb(0, 105, 0);
+}
+
+.text-blue-105 {
+  color: rgb(0, 0, 105);
+}
+
+.text-red-105 {
+  color: rgb(105, 0, 0);
+}
+
+.text-green-105 {
+  color: rgb(0, 105, 0);
+}
+
+.bg-blue-106 {
+  background-color: rgb(0, 0, 106);
+}
+
+.bg-red-106 {
+  background-color: rgb(106, 0, 0);
+}
+
+.bg-green-106 {
+  background-color: rgb(0, 106, 0);
+}
+
+.text-blue-106 {
+  color: rgb(0, 0, 106);
+}
+
+.text-red-106 {
+  color: rgb(106, 0, 0);
+}
+
+.text-green-106 {
+  color: rgb(0, 106, 0);
+}
+
+.bg-blue-107 {
+  background-color: rgb(0, 0, 107);
+}
+
+.bg-red-107 {
+  background-color: rgb(107, 0, 0);
+}
+
+.bg-green-107 {
+  background-color: rgb(0, 107, 0);
+}
+
+.text-blue-107 {
+  color: rgb(0, 0, 107);
+}
+
+.text-red-107 {
+  color: rgb(107, 0, 0);
+}
+
+.text-green-107 {
+  color: rgb(0, 107, 0);
+}
+
+.bg-blue-108 {
+  background-color: rgb(0, 0, 108);
+}
+
+.bg-red-108 {
+  background-color: rgb(108, 0, 0);
+}
+
+.bg-green-108 {
+  background-color: rgb(0, 108, 0);
+}
+
+.text-blue-108 {
+  color: rgb(0, 0, 108);
+}
+
+.text-red-108 {
+  color: rgb(108, 0, 0);
+}
+
+.text-green-108 {
+  color: rgb(0, 108, 0);
+}
+
+.bg-blue-109 {
+  background-color: rgb(0, 0, 109);
+}
+
+.bg-red-109 {
+  background-color: rgb(109, 0, 0);
+}
+
+.bg-green-109 {
+  background-color: rgb(0, 109, 0);
+}
+
+.text-blue-109 {
+  color: rgb(0, 0, 109);
+}
+
+.text-red-109 {
+  color: rgb(109, 0, 0);
+}
+
+.text-green-109 {
+  color: rgb(0, 109, 0);
+}
+
+.bg-blue-110 {
+  background-color: rgb(0, 0, 110);
+}
+
+.bg-red-110 {
+  background-color: rgb(110, 0, 0);
+}
+
+.bg-green-110 {
+  background-color: rgb(0, 110, 0);
+}
+
+.text-blue-110 {
+  color: rgb(0, 0, 110);
+}
+
+.text-red-110 {
+  color: rgb(110, 0, 0);
+}
+
+.text-green-110 {
+  color: rgb(0, 110, 0);
+}
+
+.bg-blue-111 {
+  background-color: rgb(0, 0, 111);
+}
+
+.bg-red-111 {
+  background-color: rgb(111, 0, 0);
+}
+
+.bg-green-111 {
+  background-color: rgb(0, 111, 0);
+}
+
+.text-blue-111 {
+  color: rgb(0, 0, 111);
+}
+
+.text-red-111 {
+  color: rgb(111, 0, 0);
+}
+
+.text-green-111 {
+  color: rgb(0, 111, 0);
+}
+
+.bg-blue-112 {
+  background-color: rgb(0, 0, 112);
+}
+
+.bg-red-112 {
+  background-color: rgb(112, 0, 0);
+}
+
+.bg-green-112 {
+  background-color: rgb(0, 112, 0);
+}
+
+.text-blue-112 {
+  color: rgb(0, 0, 112);
+}
+
+.text-red-112 {
+  color: rgb(112, 0, 0);
+}
+
+.text-green-112 {
+  color: rgb(0, 112, 0);
+}
+
+.bg-blue-113 {
+  background-color: rgb(0, 0, 113);
+}
+
+.bg-red-113 {
+  background-color: rgb(113, 0, 0);
+}
+
+.bg-green-113 {
+  background-color: rgb(0, 113, 0);
+}
+
+.text-blue-113 {
+  color: rgb(0, 0, 113);
+}
+
+.text-red-113 {
+  color: rgb(113, 0, 0);
+}
+
+.text-green-113 {
+  color: rgb(0, 113, 0);
+}
+
+.bg-blue-114 {
+  background-color: rgb(0, 0, 114);
+}
+
+.bg-red-114 {
+  background-color: rgb(114, 0, 0);
+}
+
+.bg-green-114 {
+  background-color: rgb(0, 114, 0);
+}
+
+.text-blue-114 {
+  color: rgb(0, 0, 114);
+}
+
+.text-red-114 {
+  color: rgb(114, 0, 0);
+}
+
+.text-green-114 {
+  color: rgb(0, 114, 0);
+}
+
+.bg-blue-115 {
+  background-color: rgb(0, 0, 115);
+}
+
+.bg-red-115 {
+  background-color: rgb(115, 0, 0);
+}
+
+.bg-green-115 {
+  background-color: rgb(0, 115, 0);
+}
+
+.text-blue-115 {
+  color: rgb(0, 0, 115);
+}
+
+.text-red-115 {
+  color: rgb(115, 0, 0);
+}
+
+.text-green-115 {
+  color: rgb(0, 115, 0);
+}
+
+.bg-blue-116 {
+  background-color: rgb(0, 0, 116);
+}
+
+.bg-red-116 {
+  background-color: rgb(116, 0, 0);
+}
+
+.bg-green-116 {
+  background-color: rgb(0, 116, 0);
+}
+
+.text-blue-116 {
+  color: rgb(0, 0, 116);
+}
+
+.text-red-116 {
+  color: rgb(116, 0, 0);
+}
+
+.text-green-116 {
+  color: rgb(0, 116, 0);
+}
+
+.bg-blue-117 {
+  background-color: rgb(0, 0, 117);
+}
+
+.bg-red-117 {
+  background-color: rgb(117, 0, 0);
+}
+
+.bg-green-117 {
+  background-color: rgb(0, 117, 0);
+}
+
+.text-blue-117 {
+  color: rgb(0, 0, 117);
+}
+
+.text-red-117 {
+  color: rgb(117, 0, 0);
+}
+
+.text-green-117 {
+  color: rgb(0, 117, 0);
+}
+
+.bg-blue-118 {
+  background-color: rgb(0, 0, 118);
+}
+
+.bg-red-118 {
+  background-color: rgb(118, 0, 0);
+}
+
+.bg-green-118 {
+  background-color: rgb(0, 118, 0);
+}
+
+.text-blue-118 {
+  color: rgb(0, 0, 118);
+}
+
+.text-red-118 {
+  color: rgb(118, 0, 0);
+}
+
+.text-green-118 {
+  color: rgb(0, 118, 0);
+}
+
+.bg-blue-119 {
+  background-color: rgb(0, 0, 119);
+}
+
+.bg-red-119 {
+  background-color: rgb(119, 0, 0);
+}
+
+.bg-green-119 {
+  background-color: rgb(0, 119, 0);
+}
+
+.text-blue-119 {
+  color: rgb(0, 0, 119);
+}
+
+.text-red-119 {
+  color: rgb(119, 0, 0);
+}
+
+.text-green-119 {
+  color: rgb(0, 119, 0);
+}
+
+.bg-blue-120 {
+  background-color: rgb(0, 0, 120);
+}
+
+.bg-red-120 {
+  background-color: rgb(120, 0, 0);
+}
+
+.bg-green-120 {
+  background-color: rgb(0, 120, 0);
+}
+
+.text-blue-120 {
+  color: rgb(0, 0, 120);
+}
+
+.text-red-120 {
+  color: rgb(120, 0, 0);
+}
+
+.text-green-120 {
+  color: rgb(0, 120, 0);
+}
+
+.bg-blue-121 {
+  background-color: rgb(0, 0, 121);
+}
+
+.bg-red-121 {
+  background-color: rgb(121, 0, 0);
+}
+
+.bg-green-121 {
+  background-color: rgb(0, 121, 0);
+}
+
+.text-blue-121 {
+  color: rgb(0, 0, 121);
+}
+
+.text-red-121 {
+  color: rgb(121, 0, 0);
+}
+
+.text-green-121 {
+  color: rgb(0, 121, 0);
+}
+
+.bg-blue-122 {
+  background-color: rgb(0, 0, 122);
+}
+
+.bg-red-122 {
+  background-color: rgb(122, 0, 0);
+}
+
+.bg-green-122 {
+  background-color: rgb(0, 122, 0);
+}
+
+.text-blue-122 {
+  color: rgb(0, 0, 122);
+}
+
+.text-red-122 {
+  color: rgb(122, 0, 0);
+}
+
+.text-green-122 {
+  color: rgb(0, 122, 0);
+}
+
+.bg-blue-123 {
+  background-color: rgb(0, 0, 123);
+}
+
+.bg-red-123 {
+  background-color: rgb(123, 0, 0);
+}
+
+.bg-green-123 {
+  background-color: rgb(0, 123, 0);
+}
+
+.text-blue-123 {
+  color: rgb(0, 0, 123);
+}
+
+.text-red-123 {
+  color: rgb(123, 0, 0);
+}
+
+.text-green-123 {
+  color: rgb(0, 123, 0);
+}
+
+.bg-blue-124 {
+  background-color: rgb(0, 0, 124);
+}
+
+.bg-red-124 {
+  background-color: rgb(124, 0, 0);
+}
+
+.bg-green-124 {
+  background-color: rgb(0, 124, 0);
+}
+
+.text-blue-124 {
+  color: rgb(0, 0, 124);
+}
+
+.text-red-124 {
+  color: rgb(124, 0, 0);
+}
+
+.text-green-124 {
+  color: rgb(0, 124, 0);
+}
+
+.bg-blue-125 {
+  background-color: rgb(0, 0, 125);
+}
+
+.bg-red-125 {
+  background-color: rgb(125, 0, 0);
+}
+
+.bg-green-125 {
+  background-color: rgb(0, 125, 0);
+}
+
+.text-blue-125 {
+  color: rgb(0, 0, 125);
+}
+
+.text-red-125 {
+  color: rgb(125, 0, 0);
+}
+
+.text-green-125 {
+  color: rgb(0, 125, 0);
+}
+
+.bg-blue-126 {
+  background-color: rgb(0, 0, 126);
+}
+
+.bg-red-126 {
+  background-color: rgb(126, 0, 0);
+}
+
+.bg-green-126 {
+  background-color: rgb(0, 126, 0);
+}
+
+.text-blue-126 {
+  color: rgb(0, 0, 126);
+}
+
+.text-red-126 {
+  color: rgb(126, 0, 0);
+}
+
+.text-green-126 {
+  color: rgb(0, 126, 0);
+}
+
+.bg-blue-127 {
+  background-color: rgb(0, 0, 127);
+}
+
+.bg-red-127 {
+  background-color: rgb(127, 0, 0);
+}
+
+.bg-green-127 {
+  background-color: rgb(0, 127, 0);
+}
+
+.text-blue-127 {
+  color: rgb(0, 0, 127);
+}
+
+.text-red-127 {
+  color: rgb(127, 0, 0);
+}
+
+.text-green-127 {
+  color: rgb(0, 127, 0);
+}
+
+.bg-blue-128 {
+  background-color: rgb(0, 0, 128);
+}
+
+.bg-red-128 {
+  background-color: rgb(128, 0, 0);
+}
+
+.bg-green-128 {
+  background-color: rgb(0, 128, 0);
+}
+
+.text-blue-128 {
+  color: rgb(0, 0, 128);
+}
+
+.text-red-128 {
+  color: rgb(128, 0, 0);
+}
+
+.text-green-128 {
+  color: rgb(0, 128, 0);
+}
+
+.bg-blue-129 {
+  background-color: rgb(0, 0, 129);
+}
+
+.bg-red-129 {
+  background-color: rgb(129, 0, 0);
+}
+
+.bg-green-129 {
+  background-color: rgb(0, 129, 0);
+}
+
+.text-blue-129 {
+  color: rgb(0, 0, 129);
+}
+
+.text-red-129 {
+  color: rgb(129, 0, 0);
+}
+
+.text-green-129 {
+  color: rgb(0, 129, 0);
+}
+
+.bg-blue-130 {
+  background-color: rgb(0, 0, 130);
+}
+
+.bg-red-130 {
+  background-color: rgb(130, 0, 0);
+}
+
+.bg-green-130 {
+  background-color: rgb(0, 130, 0);
+}
+
+.text-blue-130 {
+  color: rgb(0, 0, 130);
+}
+
+.text-red-130 {
+  color: rgb(130, 0, 0);
+}
+
+.text-green-130 {
+  color: rgb(0, 130, 0);
+}
+
+.bg-blue-131 {
+  background-color: rgb(0, 0, 131);
+}
+
+.bg-red-131 {
+  background-color: rgb(131, 0, 0);
+}
+
+.bg-green-131 {
+  background-color: rgb(0, 131, 0);
+}
+
+.text-blue-131 {
+  color: rgb(0, 0, 131);
+}
+
+.text-red-131 {
+  color: rgb(131, 0, 0);
+}
+
+.text-green-131 {
+  color: rgb(0, 131, 0);
+}
+
+.bg-blue-132 {
+  background-color: rgb(0, 0, 132);
+}
+
+.bg-red-132 {
+  background-color: rgb(132, 0, 0);
+}
+
+.bg-green-132 {
+  background-color: rgb(0, 132, 0);
+}
+
+.text-blue-132 {
+  color: rgb(0, 0, 132);
+}
+
+.text-red-132 {
+  color: rgb(132, 0, 0);
+}
+
+.text-green-132 {
+  color: rgb(0, 132, 0);
+}
+
+.bg-blue-133 {
+  background-color: rgb(0, 0, 133);
+}
+
+.bg-red-133 {
+  background-color: rgb(133, 0, 0);
+}
+
+.bg-green-133 {
+  background-color: rgb(0, 133, 0);
+}
+
+.text-blue-133 {
+  color: rgb(0, 0, 133);
+}
+
+.text-red-133 {
+  color: rgb(133, 0, 0);
+}
+
+.text-green-133 {
+  color: rgb(0, 133, 0);
+}
+
+.bg-blue-134 {
+  background-color: rgb(0, 0, 134);
+}
+
+.bg-red-134 {
+  background-color: rgb(134, 0, 0);
+}
+
+.bg-green-134 {
+  background-color: rgb(0, 134, 0);
+}
+
+.text-blue-134 {
+  color: rgb(0, 0, 134);
+}
+
+.text-red-134 {
+  color: rgb(134, 0, 0);
+}
+
+.text-green-134 {
+  color: rgb(0, 134, 0);
+}
+
+.bg-blue-135 {
+  background-color: rgb(0, 0, 135);
+}
+
+.bg-red-135 {
+  background-color: rgb(135, 0, 0);
+}
+
+.bg-green-135 {
+  background-color: rgb(0, 135, 0);
+}
+
+.text-blue-135 {
+  color: rgb(0, 0, 135);
+}
+
+.text-red-135 {
+  color: rgb(135, 0, 0);
+}
+
+.text-green-135 {
+  color: rgb(0, 135, 0);
+}
+
+.bg-blue-136 {
+  background-color: rgb(0, 0, 136);
+}
+
+.bg-red-136 {
+  background-color: rgb(136, 0, 0);
+}
+
+.bg-green-136 {
+  background-color: rgb(0, 136, 0);
+}
+
+.text-blue-136 {
+  color: rgb(0, 0, 136);
+}
+
+.text-red-136 {
+  color: rgb(136, 0, 0);
+}
+
+.text-green-136 {
+  color: rgb(0, 136, 0);
+}
+
+.bg-blue-137 {
+  background-color: rgb(0, 0, 137);
+}
+
+.bg-red-137 {
+  background-color: rgb(137, 0, 0);
+}
+
+.bg-green-137 {
+  background-color: rgb(0, 137, 0);
+}
+
+.text-blue-137 {
+  color: rgb(0, 0, 137);
+}
+
+.text-red-137 {
+  color: rgb(137, 0, 0);
+}
+
+.text-green-137 {
+  color: rgb(0, 137, 0);
+}
+
+.bg-blue-138 {
+  background-color: rgb(0, 0, 138);
+}
+
+.bg-red-138 {
+  background-color: rgb(138, 0, 0);
+}
+
+.bg-green-138 {
+  background-color: rgb(0, 138, 0);
+}
+
+.text-blue-138 {
+  color: rgb(0, 0, 138);
+}
+
+.text-red-138 {
+  color: rgb(138, 0, 0);
+}
+
+.text-green-138 {
+  color: rgb(0, 138, 0);
+}
+
+.bg-blue-139 {
+  background-color: rgb(0, 0, 139);
+}
+
+.bg-red-139 {
+  background-color: rgb(139, 0, 0);
+}
+
+.bg-green-139 {
+  background-color: rgb(0, 139, 0);
+}
+
+.text-blue-139 {
+  color: rgb(0, 0, 139);
+}
+
+.text-red-139 {
+  color: rgb(139, 0, 0);
+}
+
+.text-green-139 {
+  color: rgb(0, 139, 0);
+}
+
+.bg-blue-140 {
+  background-color: rgb(0, 0, 140);
+}
+
+.bg-red-140 {
+  background-color: rgb(140, 0, 0);
+}
+
+.bg-green-140 {
+  background-color: rgb(0, 140, 0);
+}
+
+.text-blue-140 {
+  color: rgb(0, 0, 140);
+}
+
+.text-red-140 {
+  color: rgb(140, 0, 0);
+}
+
+.text-green-140 {
+  color: rgb(0, 140, 0);
+}
+
+.bg-blue-141 {
+  background-color: rgb(0, 0, 141);
+}
+
+.bg-red-141 {
+  background-color: rgb(141, 0, 0);
+}
+
+.bg-green-141 {
+  background-color: rgb(0, 141, 0);
+}
+
+.text-blue-141 {
+  color: rgb(0, 0, 141);
+}
+
+.text-red-141 {
+  color: rgb(141, 0, 0);
+}
+
+.text-green-141 {
+  color: rgb(0, 141, 0);
+}
+
+.bg-blue-142 {
+  background-color: rgb(0, 0, 142);
+}
+
+.bg-red-142 {
+  background-color: rgb(142, 0, 0);
+}
+
+.bg-green-142 {
+  background-color: rgb(0, 142, 0);
+}
+
+.text-blue-142 {
+  color: rgb(0, 0, 142);
+}
+
+.text-red-142 {
+  color: rgb(142, 0, 0);
+}
+
+.text-green-142 {
+  color: rgb(0, 142, 0);
+}
+
+.bg-blue-143 {
+  background-color: rgb(0, 0, 143);
+}
+
+.bg-red-143 {
+  background-color: rgb(143, 0, 0);
+}
+
+.bg-green-143 {
+  background-color: rgb(0, 143, 0);
+}
+
+.text-blue-143 {
+  color: rgb(0, 0, 143);
+}
+
+.text-red-143 {
+  color: rgb(143, 0, 0);
+}
+
+.text-green-143 {
+  color: rgb(0, 143, 0);
+}
+
+.bg-blue-144 {
+  background-color: rgb(0, 0, 144);
+}
+
+.bg-red-144 {
+  background-color: rgb(144, 0, 0);
+}
+
+.bg-green-144 {
+  background-color: rgb(0, 144, 0);
+}
+
+.text-blue-144 {
+  color: rgb(0, 0, 144);
+}
+
+.text-red-144 {
+  color: rgb(144, 0, 0);
+}
+
+.text-green-144 {
+  color: rgb(0, 144, 0);
+}
+
+.bg-blue-145 {
+  background-color: rgb(0, 0, 145);
+}
+
+.bg-red-145 {
+  background-color: rgb(145, 0, 0);
+}
+
+.bg-green-145 {
+  background-color: rgb(0, 145, 0);
+}
+
+.text-blue-145 {
+  color: rgb(0, 0, 145);
+}
+
+.text-red-145 {
+  color: rgb(145, 0, 0);
+}
+
+.text-green-145 {
+  color: rgb(0, 145, 0);
+}
+
+.bg-blue-146 {
+  background-color: rgb(0, 0, 146);
+}
+
+.bg-red-146 {
+  background-color: rgb(146, 0, 0);
+}
+
+.bg-green-146 {
+  background-color: rgb(0, 146, 0);
+}
+
+.text-blue-146 {
+  color: rgb(0, 0, 146);
+}
+
+.text-red-146 {
+  color: rgb(146, 0, 0);
+}
+
+.text-green-146 {
+  color: rgb(0, 146, 0);
+}
+
+.bg-blue-147 {
+  background-color: rgb(0, 0, 147);
+}
+
+.bg-red-147 {
+  background-color: rgb(147, 0, 0);
+}
+
+.bg-green-147 {
+  background-color: rgb(0, 147, 0);
+}
+
+.text-blue-147 {
+  color: rgb(0, 0, 147);
+}
+
+.text-red-147 {
+  color: rgb(147, 0, 0);
+}
+
+.text-green-147 {
+  color: rgb(0, 147, 0);
+}
+
+.bg-blue-148 {
+  background-color: rgb(0, 0, 148);
+}
+
+.bg-red-148 {
+  background-color: rgb(148, 0, 0);
+}
+
+.bg-green-148 {
+  background-color: rgb(0, 148, 0);
+}
+
+.text-blue-148 {
+  color: rgb(0, 0, 148);
+}
+
+.text-red-148 {
+  color: rgb(148, 0, 0);
+}
+
+.text-green-148 {
+  color: rgb(0, 148, 0);
+}
+
+.bg-blue-149 {
+  background-color: rgb(0, 0, 149);
+}
+
+.bg-red-149 {
+  background-color: rgb(149, 0, 0);
+}
+
+.bg-green-149 {
+  background-color: rgb(0, 149, 0);
+}
+
+.text-blue-149 {
+  color: rgb(0, 0, 149);
+}
+
+.text-red-149 {
+  color: rgb(149, 0, 0);
+}
+
+.text-green-149 {
+  color: rgb(0, 149, 0);
+}
+
+.bg-blue-150 {
+  background-color: rgb(0, 0, 150);
+}
+
+.bg-red-150 {
+  background-color: rgb(150, 0, 0);
+}
+
+.bg-green-150 {
+  background-color: rgb(0, 150, 0);
+}
+
+.text-blue-150 {
+  color: rgb(0, 0, 150);
+}
+
+.text-red-150 {
+  color: rgb(150, 0, 0);
+}
+
+.text-green-150 {
+  color: rgb(0, 150, 0);
+}
+
+.bg-blue-151 {
+  background-color: rgb(0, 0, 151);
+}
+
+.bg-red-151 {
+  background-color: rgb(151, 0, 0);
+}
+
+.bg-green-151 {
+  background-color: rgb(0, 151, 0);
+}
+
+.text-blue-151 {
+  color: rgb(0, 0, 151);
+}
+
+.text-red-151 {
+  color: rgb(151, 0, 0);
+}
+
+.text-green-151 {
+  color: rgb(0, 151, 0);
+}
+
+.bg-blue-152 {
+  background-color: rgb(0, 0, 152);
+}
+
+.bg-red-152 {
+  background-color: rgb(152, 0, 0);
+}
+
+.bg-green-152 {
+  background-color: rgb(0, 152, 0);
+}
+
+.text-blue-152 {
+  color: rgb(0, 0, 152);
+}
+
+.text-red-152 {
+  color: rgb(152, 0, 0);
+}
+
+.text-green-152 {
+  color: rgb(0, 152, 0);
+}
+
+.bg-blue-153 {
+  background-color: rgb(0, 0, 153);
+}
+
+.bg-red-153 {
+  background-color: rgb(153, 0, 0);
+}
+
+.bg-green-153 {
+  background-color: rgb(0, 153, 0);
+}
+
+.text-blue-153 {
+  color: rgb(0, 0, 153);
+}
+
+.text-red-153 {
+  color: rgb(153, 0, 0);
+}
+
+.text-green-153 {
+  color: rgb(0, 153, 0);
+}
+
+.bg-blue-154 {
+  background-color: rgb(0, 0, 154);
+}
+
+.bg-red-154 {
+  background-color: rgb(154, 0, 0);
+}
+
+.bg-green-154 {
+  background-color: rgb(0, 154, 0);
+}
+
+.text-blue-154 {
+  color: rgb(0, 0, 154);
+}
+
+.text-red-154 {
+  color: rgb(154, 0, 0);
+}
+
+.text-green-154 {
+  color: rgb(0, 154, 0);
+}
+
+.bg-blue-155 {
+  background-color: rgb(0, 0, 155);
+}
+
+.bg-red-155 {
+  background-color: rgb(155, 0, 0);
+}
+
+.bg-green-155 {
+  background-color: rgb(0, 155, 0);
+}
+
+.text-blue-155 {
+  color: rgb(0, 0, 155);
+}
+
+.text-red-155 {
+  color: rgb(155, 0, 0);
+}
+
+.text-green-155 {
+  color: rgb(0, 155, 0);
+}
+
+.bg-blue-156 {
+  background-color: rgb(0, 0, 156);
+}
+
+.bg-red-156 {
+  background-color: rgb(156, 0, 0);
+}
+
+.bg-green-156 {
+  background-color: rgb(0, 156, 0);
+}
+
+.text-blue-156 {
+  color: rgb(0, 0, 156);
+}
+
+.text-red-156 {
+  color: rgb(156, 0, 0);
+}
+
+.text-green-156 {
+  color: rgb(0, 156, 0);
+}
+
+.bg-blue-157 {
+  background-color: rgb(0, 0, 157);
+}
+
+.bg-red-157 {
+  background-color: rgb(157, 0, 0);
+}
+
+.bg-green-157 {
+  background-color: rgb(0, 157, 0);
+}
+
+.text-blue-157 {
+  color: rgb(0, 0, 157);
+}
+
+.text-red-157 {
+  color: rgb(157, 0, 0);
+}
+
+.text-green-157 {
+  color: rgb(0, 157, 0);
+}
+
+.bg-blue-158 {
+  background-color: rgb(0, 0, 158);
+}
+
+.bg-red-158 {
+  background-color: rgb(158, 0, 0);
+}
+
+.bg-green-158 {
+  background-color: rgb(0, 158, 0);
+}
+
+.text-blue-158 {
+  color: rgb(0, 0, 158);
+}
+
+.text-red-158 {
+  color: rgb(158, 0, 0);
+}
+
+.text-green-158 {
+  color: rgb(0, 158, 0);
+}
+
+.bg-blue-159 {
+  background-color: rgb(0, 0, 159);
+}
+
+.bg-red-159 {
+  background-color: rgb(159, 0, 0);
+}
+
+.bg-green-159 {
+  background-color: rgb(0, 159, 0);
+}
+
+.text-blue-159 {
+  color: rgb(0, 0, 159);
+}
+
+.text-red-159 {
+  color: rgb(159, 0, 0);
+}
+
+.text-green-159 {
+  color: rgb(0, 159, 0);
+}
+
+.bg-blue-160 {
+  background-color: rgb(0, 0, 160);
+}
+
+.bg-red-160 {
+  background-color: rgb(160, 0, 0);
+}
+
+.bg-green-160 {
+  background-color: rgb(0, 160, 0);
+}
+
+.text-blue-160 {
+  color: rgb(0, 0, 160);
+}
+
+.text-red-160 {
+  color: rgb(160, 0, 0);
+}
+
+.text-green-160 {
+  color: rgb(0, 160, 0);
+}
+
+.bg-blue-161 {
+  background-color: rgb(0, 0, 161);
+}
+
+.bg-red-161 {
+  background-color: rgb(161, 0, 0);
+}
+
+.bg-green-161 {
+  background-color: rgb(0, 161, 0);
+}
+
+.text-blue-161 {
+  color: rgb(0, 0, 161);
+}
+
+.text-red-161 {
+  color: rgb(161, 0, 0);
+}
+
+.text-green-161 {
+  color: rgb(0, 161, 0);
+}
+
+.bg-blue-162 {
+  background-color: rgb(0, 0, 162);
+}
+
+.bg-red-162 {
+  background-color: rgb(162, 0, 0);
+}
+
+.bg-green-162 {
+  background-color: rgb(0, 162, 0);
+}
+
+.text-blue-162 {
+  color: rgb(0, 0, 162);
+}
+
+.text-red-162 {
+  color: rgb(162, 0, 0);
+}
+
+.text-green-162 {
+  color: rgb(0, 162, 0);
+}
+
+.bg-blue-163 {
+  background-color: rgb(0, 0, 163);
+}
+
+.bg-red-163 {
+  background-color: rgb(163, 0, 0);
+}
+
+.bg-green-163 {
+  background-color: rgb(0, 163, 0);
+}
+
+.text-blue-163 {
+  color: rgb(0, 0, 163);
+}
+
+.text-red-163 {
+  color: rgb(163, 0, 0);
+}
+
+.text-green-163 {
+  color: rgb(0, 163, 0);
+}
+
+.bg-blue-164 {
+  background-color: rgb(0, 0, 164);
+}
+
+.bg-red-164 {
+  background-color: rgb(164, 0, 0);
+}
+
+.bg-green-164 {
+  background-color: rgb(0, 164, 0);
+}
+
+.text-blue-164 {
+  color: rgb(0, 0, 164);
+}
+
+.text-red-164 {
+  color: rgb(164, 0, 0);
+}
+
+.text-green-164 {
+  color: rgb(0, 164, 0);
+}
+
+.bg-blue-165 {
+  background-color: rgb(0, 0, 165);
+}
+
+.bg-red-165 {
+  background-color: rgb(165, 0, 0);
+}
+
+.bg-green-165 {
+  background-color: rgb(0, 165, 0);
+}
+
+.text-blue-165 {
+  color: rgb(0, 0, 165);
+}
+
+.text-red-165 {
+  color: rgb(165, 0, 0);
+}
+
+.text-green-165 {
+  color: rgb(0, 165, 0);
+}
+
+.bg-blue-166 {
+  background-color: rgb(0, 0, 166);
+}
+
+.bg-red-166 {
+  background-color: rgb(166, 0, 0);
+}
+
+.bg-green-166 {
+  background-color: rgb(0, 166, 0);
+}
+
+.text-blue-166 {
+  color: rgb(0, 0, 166);
+}
+
+.text-red-166 {
+  color: rgb(166, 0, 0);
+}
+
+.text-green-166 {
+  color: rgb(0, 166, 0);
+}
+
+.bg-blue-167 {
+  background-color: rgb(0, 0, 167);
+}
+
+.bg-red-167 {
+  background-color: rgb(167, 0, 0);
+}
+
+.bg-green-167 {
+  background-color: rgb(0, 167, 0);
+}
+
+.text-blue-167 {
+  color: rgb(0, 0, 167);
+}
+
+.text-red-167 {
+  color: rgb(167, 0, 0);
+}
+
+.text-green-167 {
+  color: rgb(0, 167, 0);
+}
+
+.bg-blue-168 {
+  background-color: rgb(0, 0, 168);
+}
+
+.bg-red-168 {
+  background-color: rgb(168, 0, 0);
+}
+
+.bg-green-168 {
+  background-color: rgb(0, 168, 0);
+}
+
+.text-blue-168 {
+  color: rgb(0, 0, 168);
+}
+
+.text-red-168 {
+  color: rgb(168, 0, 0);
+}
+
+.text-green-168 {
+  color: rgb(0, 168, 0);
+}
+
+.bg-blue-169 {
+  background-color: rgb(0, 0, 169);
+}
+
+.bg-red-169 {
+  background-color: rgb(169, 0, 0);
+}
+
+.bg-green-169 {
+  background-color: rgb(0, 169, 0);
+}
+
+.text-blue-169 {
+  color: rgb(0, 0, 169);
+}
+
+.text-red-169 {
+  color: rgb(169, 0, 0);
+}
+
+.text-green-169 {
+  color: rgb(0, 169, 0);
+}
+
+.bg-blue-170 {
+  background-color: rgb(0, 0, 170);
+}
+
+.bg-red-170 {
+  background-color: rgb(170, 0, 0);
+}
+
+.bg-green-170 {
+  background-color: rgb(0, 170, 0);
+}
+
+.text-blue-170 {
+  color: rgb(0, 0, 170);
+}
+
+.text-red-170 {
+  color: rgb(170, 0, 0);
+}
+
+.text-green-170 {
+  color: rgb(0, 170, 0);
+}
+
+.bg-blue-171 {
+  background-color: rgb(0, 0, 171);
+}
+
+.bg-red-171 {
+  background-color: rgb(171, 0, 0);
+}
+
+.bg-green-171 {
+  background-color: rgb(0, 171, 0);
+}
+
+.text-blue-171 {
+  color: rgb(0, 0, 171);
+}
+
+.text-red-171 {
+  color: rgb(171, 0, 0);
+}
+
+.text-green-171 {
+  color: rgb(0, 171, 0);
+}
+
+.bg-blue-172 {
+  background-color: rgb(0, 0, 172);
+}
+
+.bg-red-172 {
+  background-color: rgb(172, 0, 0);
+}
+
+.bg-green-172 {
+  background-color: rgb(0, 172, 0);
+}
+
+.text-blue-172 {
+  color: rgb(0, 0, 172);
+}
+
+.text-red-172 {
+  color: rgb(172, 0, 0);
+}
+
+.text-green-172 {
+  color: rgb(0, 172, 0);
+}
+
+.bg-blue-173 {
+  background-color: rgb(0, 0, 173);
+}
+
+.bg-red-173 {
+  background-color: rgb(173, 0, 0);
+}
+
+.bg-green-173 {
+  background-color: rgb(0, 173, 0);
+}
+
+.text-blue-173 {
+  color: rgb(0, 0, 173);
+}
+
+.text-red-173 {
+  color: rgb(173, 0, 0);
+}
+
+.text-green-173 {
+  color: rgb(0, 173, 0);
+}
+
+.bg-blue-174 {
+  background-color: rgb(0, 0, 174);
+}
+
+.bg-red-174 {
+  background-color: rgb(174, 0, 0);
+}
+
+.bg-green-174 {
+  background-color: rgb(0, 174, 0);
+}
+
+.text-blue-174 {
+  color: rgb(0, 0, 174);
+}
+
+.text-red-174 {
+  color: rgb(174, 0, 0);
+}
+
+.text-green-174 {
+  color: rgb(0, 174, 0);
+}
+
+.bg-blue-175 {
+  background-color: rgb(0, 0, 175);
+}
+
+.bg-red-175 {
+  background-color: rgb(175, 0, 0);
+}
+
+.bg-green-175 {
+  background-color: rgb(0, 175, 0);
+}
+
+.text-blue-175 {
+  color: rgb(0, 0, 175);
+}
+
+.text-red-175 {
+  color: rgb(175, 0, 0);
+}
+
+.text-green-175 {
+  color: rgb(0, 175, 0);
+}
+
+.bg-blue-176 {
+  background-color: rgb(0, 0, 176);
+}
+
+.bg-red-176 {
+  background-color: rgb(176, 0, 0);
+}
+
+.bg-green-176 {
+  background-color: rgb(0, 176, 0);
+}
+
+.text-blue-176 {
+  color: rgb(0, 0, 176);
+}
+
+.text-red-176 {
+  color: rgb(176, 0, 0);
+}
+
+.text-green-176 {
+  color: rgb(0, 176, 0);
+}
+
+.bg-blue-177 {
+  background-color: rgb(0, 0, 177);
+}
+
+.bg-red-177 {
+  background-color: rgb(177, 0, 0);
+}
+
+.bg-green-177 {
+  background-color: rgb(0, 177, 0);
+}
+
+.text-blue-177 {
+  color: rgb(0, 0, 177);
+}
+
+.text-red-177 {
+  color: rgb(177, 0, 0);
+}
+
+.text-green-177 {
+  color: rgb(0, 177, 0);
+}
+
+.bg-blue-178 {
+  background-color: rgb(0, 0, 178);
+}
+
+.bg-red-178 {
+  background-color: rgb(178, 0, 0);
+}
+
+.bg-green-178 {
+  background-color: rgb(0, 178, 0);
+}
+
+.text-blue-178 {
+  color: rgb(0, 0, 178);
+}
+
+.text-red-178 {
+  color: rgb(178, 0, 0);
+}
+
+.text-green-178 {
+  color: rgb(0, 178, 0);
+}
+
+.bg-blue-179 {
+  background-color: rgb(0, 0, 179);
+}
+
+.bg-red-179 {
+  background-color: rgb(179, 0, 0);
+}
+
+.bg-green-179 {
+  background-color: rgb(0, 179, 0);
+}
+
+.text-blue-179 {
+  color: rgb(0, 0, 179);
+}
+
+.text-red-179 {
+  color: rgb(179, 0, 0);
+}
+
+.text-green-179 {
+  color: rgb(0, 179, 0);
+}
+
+.bg-blue-180 {
+  background-color: rgb(0, 0, 180);
+}
+
+.bg-red-180 {
+  background-color: rgb(180, 0, 0);
+}
+
+.bg-green-180 {
+  background-color: rgb(0, 180, 0);
+}
+
+.text-blue-180 {
+  color: rgb(0, 0, 180);
+}
+
+.text-red-180 {
+  color: rgb(180, 0, 0);
+}
+
+.text-green-180 {
+  color: rgb(0, 180, 0);
+}
+
+.bg-blue-181 {
+  background-color: rgb(0, 0, 181);
+}
+
+.bg-red-181 {
+  background-color: rgb(181, 0, 0);
+}
+
+.bg-green-181 {
+  background-color: rgb(0, 181, 0);
+}
+
+.text-blue-181 {
+  color: rgb(0, 0, 181);
+}
+
+.text-red-181 {
+  color: rgb(181, 0, 0);
+}
+
+.text-green-181 {
+  color: rgb(0, 181, 0);
+}
+
+.bg-blue-182 {
+  background-color: rgb(0, 0, 182);
+}
+
+.bg-red-182 {
+  background-color: rgb(182, 0, 0);
+}
+
+.bg-green-182 {
+  background-color: rgb(0, 182, 0);
+}
+
+.text-blue-182 {
+  color: rgb(0, 0, 182);
+}
+
+.text-red-182 {
+  color: rgb(182, 0, 0);
+}
+
+.text-green-182 {
+  color: rgb(0, 182, 0);
+}
+
+.bg-blue-183 {
+  background-color: rgb(0, 0, 183);
+}
+
+.bg-red-183 {
+  background-color: rgb(183, 0, 0);
+}
+
+.bg-green-183 {
+  background-color: rgb(0, 183, 0);
+}
+
+.text-blue-183 {
+  color: rgb(0, 0, 183);
+}
+
+.text-red-183 {
+  color: rgb(183, 0, 0);
+}
+
+.text-green-183 {
+  color: rgb(0, 183, 0);
+}
+
+.bg-blue-184 {
+  background-color: rgb(0, 0, 184);
+}
+
+.bg-red-184 {
+  background-color: rgb(184, 0, 0);
+}
+
+.bg-green-184 {
+  background-color: rgb(0, 184, 0);
+}
+
+.text-blue-184 {
+  color: rgb(0, 0, 184);
+}
+
+.text-red-184 {
+  color: rgb(184, 0, 0);
+}
+
+.text-green-184 {
+  color: rgb(0, 184, 0);
+}
+
+.bg-blue-185 {
+  background-color: rgb(0, 0, 185);
+}
+
+.bg-red-185 {
+  background-color: rgb(185, 0, 0);
+}
+
+.bg-green-185 {
+  background-color: rgb(0, 185, 0);
+}
+
+.text-blue-185 {
+  color: rgb(0, 0, 185);
+}
+
+.text-red-185 {
+  color: rgb(185, 0, 0);
+}
+
+.text-green-185 {
+  color: rgb(0, 185, 0);
+}
+
+.bg-blue-186 {
+  background-color: rgb(0, 0, 186);
+}
+
+.bg-red-186 {
+  background-color: rgb(186, 0, 0);
+}
+
+.bg-green-186 {
+  background-color: rgb(0, 186, 0);
+}
+
+.text-blue-186 {
+  color: rgb(0, 0, 186);
+}
+
+.text-red-186 {
+  color: rgb(186, 0, 0);
+}
+
+.text-green-186 {
+  color: rgb(0, 186, 0);
+}
+
+.bg-blue-187 {
+  background-color: rgb(0, 0, 187);
+}
+
+.bg-red-187 {
+  background-color: rgb(187, 0, 0);
+}
+
+.bg-green-187 {
+  background-color: rgb(0, 187, 0);
+}
+
+.text-blue-187 {
+  color: rgb(0, 0, 187);
+}
+
+.text-red-187 {
+  color: rgb(187, 0, 0);
+}
+
+.text-green-187 {
+  color: rgb(0, 187, 0);
+}
+
+.bg-blue-188 {
+  background-color: rgb(0, 0, 188);
+}
+
+.bg-red-188 {
+  background-color: rgb(188, 0, 0);
+}
+
+.bg-green-188 {
+  background-color: rgb(0, 188, 0);
+}
+
+.text-blue-188 {
+  color: rgb(0, 0, 188);
+}
+
+.text-red-188 {
+  color: rgb(188, 0, 0);
+}
+
+.text-green-188 {
+  color: rgb(0, 188, 0);
+}
+
+.bg-blue-189 {
+  background-color: rgb(0, 0, 189);
+}
+
+.bg-red-189 {
+  background-color: rgb(189, 0, 0);
+}
+
+.bg-green-189 {
+  background-color: rgb(0, 189, 0);
+}
+
+.text-blue-189 {
+  color: rgb(0, 0, 189);
+}
+
+.text-red-189 {
+  color: rgb(189, 0, 0);
+}
+
+.text-green-189 {
+  color: rgb(0, 189, 0);
+}
+
+.bg-blue-190 {
+  background-color: rgb(0, 0, 190);
+}
+
+.bg-red-190 {
+  background-color: rgb(190, 0, 0);
+}
+
+.bg-green-190 {
+  background-color: rgb(0, 190, 0);
+}
+
+.text-blue-190 {
+  color: rgb(0, 0, 190);
+}
+
+.text-red-190 {
+  color: rgb(190, 0, 0);
+}
+
+.text-green-190 {
+  color: rgb(0, 190, 0);
+}
+
+.bg-blue-191 {
+  background-color: rgb(0, 0, 191);
+}
+
+.bg-red-191 {
+  background-color: rgb(191, 0, 0);
+}
+
+.bg-green-191 {
+  background-color: rgb(0, 191, 0);
+}
+
+.text-blue-191 {
+  color: rgb(0, 0, 191);
+}
+
+.text-red-191 {
+  color: rgb(191, 0, 0);
+}
+
+.text-green-191 {
+  color: rgb(0, 191, 0);
+}
+
+.bg-blue-192 {
+  background-color: rgb(0, 0, 192);
+}
+
+.bg-red-192 {
+  background-color: rgb(192, 0, 0);
+}
+
+.bg-green-192 {
+  background-color: rgb(0, 192, 0);
+}
+
+.text-blue-192 {
+  color: rgb(0, 0, 192);
+}
+
+.text-red-192 {
+  color: rgb(192, 0, 0);
+}
+
+.text-green-192 {
+  color: rgb(0, 192, 0);
+}
+
+.bg-blue-193 {
+  background-color: rgb(0, 0, 193);
+}
+
+.bg-red-193 {
+  background-color: rgb(193, 0, 0);
+}
+
+.bg-green-193 {
+  background-color: rgb(0, 193, 0);
+}
+
+.text-blue-193 {
+  color: rgb(0, 0, 193);
+}
+
+.text-red-193 {
+  color: rgb(193, 0, 0);
+}
+
+.text-green-193 {
+  color: rgb(0, 193, 0);
+}
+
+.bg-blue-194 {
+  background-color: rgb(0, 0, 194);
+}
+
+.bg-red-194 {
+  background-color: rgb(194, 0, 0);
+}
+
+.bg-green-194 {
+  background-color: rgb(0, 194, 0);
+}
+
+.text-blue-194 {
+  color: rgb(0, 0, 194);
+}
+
+.text-red-194 {
+  color: rgb(194, 0, 0);
+}
+
+.text-green-194 {
+  color: rgb(0, 194, 0);
+}
+
+.bg-blue-195 {
+  background-color: rgb(0, 0, 195);
+}
+
+.bg-red-195 {
+  background-color: rgb(195, 0, 0);
+}
+
+.bg-green-195 {
+  background-color: rgb(0, 195, 0);
+}
+
+.text-blue-195 {
+  color: rgb(0, 0, 195);
+}
+
+.text-red-195 {
+  color: rgb(195, 0, 0);
+}
+
+.text-green-195 {
+  color: rgb(0, 195, 0);
+}
+
+.bg-blue-196 {
+  background-color: rgb(0, 0, 196);
+}
+
+.bg-red-196 {
+  background-color: rgb(196, 0, 0);
+}
+
+.bg-green-196 {
+  background-color: rgb(0, 196, 0);
+}
+
+.text-blue-196 {
+  color: rgb(0, 0, 196);
+}
+
+.text-red-196 {
+  color: rgb(196, 0, 0);
+}
+
+.text-green-196 {
+  color: rgb(0, 196, 0);
+}
+
+.bg-blue-197 {
+  background-color: rgb(0, 0, 197);
+}
+
+.bg-red-197 {
+  background-color: rgb(197, 0, 0);
+}
+
+.bg-green-197 {
+  background-color: rgb(0, 197, 0);
+}
+
+.text-blue-197 {
+  color: rgb(0, 0, 197);
+}
+
+.text-red-197 {
+  color: rgb(197, 0, 0);
+}
+
+.text-green-197 {
+  color: rgb(0, 197, 0);
+}
+
+.bg-blue-198 {
+  background-color: rgb(0, 0, 198);
+}
+
+.bg-red-198 {
+  background-color: rgb(198, 0, 0);
+}
+
+.bg-green-198 {
+  background-color: rgb(0, 198, 0);
+}
+
+.text-blue-198 {
+  color: rgb(0, 0, 198);
+}
+
+.text-red-198 {
+  color: rgb(198, 0, 0);
+}
+
+.text-green-198 {
+  color: rgb(0, 198, 0);
+}
+
+.bg-blue-199 {
+  background-color: rgb(0, 0, 199);
+}
+
+.bg-red-199 {
+  background-color: rgb(199, 0, 0);
+}
+
+.bg-green-199 {
+  background-color: rgb(0, 199, 0);
+}
+
+.text-blue-199 {
+  color: rgb(0, 0, 199);
+}
+
+.text-red-199 {
+  color: rgb(199, 0, 0);
+}
+
+.text-green-199 {
+  color: rgb(0, 199, 0);
+}
+
+.bg-blue-200 {
+  background-color: rgb(0, 0, 200);
+}
+
+.bg-red-200 {
+  background-color: rgb(200, 0, 0);
+}
+
+.bg-green-200 {
+  background-color: rgb(0, 200, 0);
+}
+
+.text-blue-200 {
+  color: rgb(0, 0, 200);
+}
+
+.text-red-200 {
+  color: rgb(200, 0, 0);
+}
+
+.text-green-200 {
+  color: rgb(0, 200, 0);
+}
+
+.bg-blue-201 {
+  background-color: rgb(0, 0, 201);
+}
+
+.bg-red-201 {
+  background-color: rgb(201, 0, 0);
+}
+
+.bg-green-201 {
+  background-color: rgb(0, 201, 0);
+}
+
+.text-blue-201 {
+  color: rgb(0, 0, 201);
+}
+
+.text-red-201 {
+  color: rgb(201, 0, 0);
+}
+
+.text-green-201 {
+  color: rgb(0, 201, 0);
+}
+
+.bg-blue-202 {
+  background-color: rgb(0, 0, 202);
+}
+
+.bg-red-202 {
+  background-color: rgb(202, 0, 0);
+}
+
+.bg-green-202 {
+  background-color: rgb(0, 202, 0);
+}
+
+.text-blue-202 {
+  color: rgb(0, 0, 202);
+}
+
+.text-red-202 {
+  color: rgb(202, 0, 0);
+}
+
+.text-green-202 {
+  color: rgb(0, 202, 0);
+}
+
+.bg-blue-203 {
+  background-color: rgb(0, 0, 203);
+}
+
+.bg-red-203 {
+  background-color: rgb(203, 0, 0);
+}
+
+.bg-green-203 {
+  background-color: rgb(0, 203, 0);
+}
+
+.text-blue-203 {
+  color: rgb(0, 0, 203);
+}
+
+.text-red-203 {
+  color: rgb(203, 0, 0);
+}
+
+.text-green-203 {
+  color: rgb(0, 203, 0);
+}
+
+.bg-blue-204 {
+  background-color: rgb(0, 0, 204);
+}
+
+.bg-red-204 {
+  background-color: rgb(204, 0, 0);
+}
+
+.bg-green-204 {
+  background-color: rgb(0, 204, 0);
+}
+
+.text-blue-204 {
+  color: rgb(0, 0, 204);
+}
+
+.text-red-204 {
+  color: rgb(204, 0, 0);
+}
+
+.text-green-204 {
+  color: rgb(0, 204, 0);
+}
+
+.bg-blue-205 {
+  background-color: rgb(0, 0, 205);
+}
+
+.bg-red-205 {
+  background-color: rgb(205, 0, 0);
+}
+
+.bg-green-205 {
+  background-color: rgb(0, 205, 0);
+}
+
+.text-blue-205 {
+  color: rgb(0, 0, 205);
+}
+
+.text-red-205 {
+  color: rgb(205, 0, 0);
+}
+
+.text-green-205 {
+  color: rgb(0, 205, 0);
+}
+
+.bg-blue-206 {
+  background-color: rgb(0, 0, 206);
+}
+
+.bg-red-206 {
+  background-color: rgb(206, 0, 0);
+}
+
+.bg-green-206 {
+  background-color: rgb(0, 206, 0);
+}
+
+.text-blue-206 {
+  color: rgb(0, 0, 206);
+}
+
+.text-red-206 {
+  color: rgb(206, 0, 0);
+}
+
+.text-green-206 {
+  color: rgb(0, 206, 0);
+}
+
+.bg-blue-207 {
+  background-color: rgb(0, 0, 207);
+}
+
+.bg-red-207 {
+  background-color: rgb(207, 0, 0);
+}
+
+.bg-green-207 {
+  background-color: rgb(0, 207, 0);
+}
+
+.text-blue-207 {
+  color: rgb(0, 0, 207);
+}
+
+.text-red-207 {
+  color: rgb(207, 0, 0);
+}
+
+.text-green-207 {
+  color: rgb(0, 207, 0);
+}
+
+.bg-blue-208 {
+  background-color: rgb(0, 0, 208);
+}
+
+.bg-red-208 {
+  background-color: rgb(208, 0, 0);
+}
+
+.bg-green-208 {
+  background-color: rgb(0, 208, 0);
+}
+
+.text-blue-208 {
+  color: rgb(0, 0, 208);
+}
+
+.text-red-208 {
+  color: rgb(208, 0, 0);
+}
+
+.text-green-208 {
+  color: rgb(0, 208, 0);
+}
+
+.bg-blue-209 {
+  background-color: rgb(0, 0, 209);
+}
+
+.bg-red-209 {
+  background-color: rgb(209, 0, 0);
+}
+
+.bg-green-209 {
+  background-color: rgb(0, 209, 0);
+}
+
+.text-blue-209 {
+  color: rgb(0, 0, 209);
+}
+
+.text-red-209 {
+  color: rgb(209, 0, 0);
+}
+
+.text-green-209 {
+  color: rgb(0, 209, 0);
+}
+
+.bg-blue-210 {
+  background-color: rgb(0, 0, 210);
+}
+
+.bg-red-210 {
+  background-color: rgb(210, 0, 0);
+}
+
+.bg-green-210 {
+  background-color: rgb(0, 210, 0);
+}
+
+.text-blue-210 {
+  color: rgb(0, 0, 210);
+}
+
+.text-red-210 {
+  color: rgb(210, 0, 0);
+}
+
+.text-green-210 {
+  color: rgb(0, 210, 0);
+}
+
+.bg-blue-211 {
+  background-color: rgb(0, 0, 211);
+}
+
+.bg-red-211 {
+  background-color: rgb(211, 0, 0);
+}
+
+.bg-green-211 {
+  background-color: rgb(0, 211, 0);
+}
+
+.text-blue-211 {
+  color: rgb(0, 0, 211);
+}
+
+.text-red-211 {
+  color: rgb(211, 0, 0);
+}
+
+.text-green-211 {
+  color: rgb(0, 211, 0);
+}
+
+.bg-blue-212 {
+  background-color: rgb(0, 0, 212);
+}
+
+.bg-red-212 {
+  background-color: rgb(212, 0, 0);
+}
+
+.bg-green-212 {
+  background-color: rgb(0, 212, 0);
+}
+
+.text-blue-212 {
+  color: rgb(0, 0, 212);
+}
+
+.text-red-212 {
+  color: rgb(212, 0, 0);
+}
+
+.text-green-212 {
+  color: rgb(0, 212, 0);
+}
+
+.bg-blue-213 {
+  background-color: rgb(0, 0, 213);
+}
+
+.bg-red-213 {
+  background-color: rgb(213, 0, 0);
+}
+
+.bg-green-213 {
+  background-color: rgb(0, 213, 0);
+}
+
+.text-blue-213 {
+  color: rgb(0, 0, 213);
+}
+
+.text-red-213 {
+  color: rgb(213, 0, 0);
+}
+
+.text-green-213 {
+  color: rgb(0, 213, 0);
+}
+
+.bg-blue-214 {
+  background-color: rgb(0, 0, 214);
+}
+
+.bg-red-214 {
+  background-color: rgb(214, 0, 0);
+}
+
+.bg-green-214 {
+  background-color: rgb(0, 214, 0);
+}
+
+.text-blue-214 {
+  color: rgb(0, 0, 214);
+}
+
+.text-red-214 {
+  color: rgb(214, 0, 0);
+}
+
+.text-green-214 {
+  color: rgb(0, 214, 0);
+}
+
+.bg-blue-215 {
+  background-color: rgb(0, 0, 215);
+}
+
+.bg-red-215 {
+  background-color: rgb(215, 0, 0);
+}
+
+.bg-green-215 {
+  background-color: rgb(0, 215, 0);
+}
+
+.text-blue-215 {
+  color: rgb(0, 0, 215);
+}
+
+.text-red-215 {
+  color: rgb(215, 0, 0);
+}
+
+.text-green-215 {
+  color: rgb(0, 215, 0);
+}
+
+.bg-blue-216 {
+  background-color: rgb(0, 0, 216);
+}
+
+.bg-red-216 {
+  background-color: rgb(216, 0, 0);
+}
+
+.bg-green-216 {
+  background-color: rgb(0, 216, 0);
+}
+
+.text-blue-216 {
+  color: rgb(0, 0, 216);
+}
+
+.text-red-216 {
+  color: rgb(216, 0, 0);
+}
+
+.text-green-216 {
+  color: rgb(0, 216, 0);
+}
+
+.bg-blue-217 {
+  background-color: rgb(0, 0, 217);
+}
+
+.bg-red-217 {
+  background-color: rgb(217, 0, 0);
+}
+
+.bg-green-217 {
+  background-color: rgb(0, 217, 0);
+}
+
+.text-blue-217 {
+  color: rgb(0, 0, 217);
+}
+
+.text-red-217 {
+  color: rgb(217, 0, 0);
+}
+
+.text-green-217 {
+  color: rgb(0, 217, 0);
+}
+
+.bg-blue-218 {
+  background-color: rgb(0, 0, 218);
+}
+
+.bg-red-218 {
+  background-color: rgb(218, 0, 0);
+}
+
+.bg-green-218 {
+  background-color: rgb(0, 218, 0);
+}
+
+.text-blue-218 {
+  color: rgb(0, 0, 218);
+}
+
+.text-red-218 {
+  color: rgb(218, 0, 0);
+}
+
+.text-green-218 {
+  color: rgb(0, 218, 0);
+}
+
+.bg-blue-219 {
+  background-color: rgb(0, 0, 219);
+}
+
+.bg-red-219 {
+  background-color: rgb(219, 0, 0);
+}
+
+.bg-green-219 {
+  background-color: rgb(0, 219, 0);
+}
+
+.text-blue-219 {
+  color: rgb(0, 0, 219);
+}
+
+.text-red-219 {
+  color: rgb(219, 0, 0);
+}
+
+.text-green-219 {
+  color: rgb(0, 219, 0);
+}
+
+.bg-blue-220 {
+  background-color: rgb(0, 0, 220);
+}
+
+.bg-red-220 {
+  background-color: rgb(220, 0, 0);
+}
+
+.bg-green-220 {
+  background-color: rgb(0, 220, 0);
+}
+
+.text-blue-220 {
+  color: rgb(0, 0, 220);
+}
+
+.text-red-220 {
+  color: rgb(220, 0, 0);
+}
+
+.text-green-220 {
+  color: rgb(0, 220, 0);
+}
+
+.bg-blue-221 {
+  background-color: rgb(0, 0, 221);
+}
+
+.bg-red-221 {
+  background-color: rgb(221, 0, 0);
+}
+
+.bg-green-221 {
+  background-color: rgb(0, 221, 0);
+}
+
+.text-blue-221 {
+  color: rgb(0, 0, 221);
+}
+
+.text-red-221 {
+  color: rgb(221, 0, 0);
+}
+
+.text-green-221 {
+  color: rgb(0, 221, 0);
+}
+
+.bg-blue-222 {
+  background-color: rgb(0, 0, 222);
+}
+
+.bg-red-222 {
+  background-color: rgb(222, 0, 0);
+}
+
+.bg-green-222 {
+  background-color: rgb(0, 222, 0);
+}
+
+.text-blue-222 {
+  color: rgb(0, 0, 222);
+}
+
+.text-red-222 {
+  color: rgb(222, 0, 0);
+}
+
+.text-green-222 {
+  color: rgb(0, 222, 0);
+}
+
+.bg-blue-223 {
+  background-color: rgb(0, 0, 223);
+}
+
+.bg-red-223 {
+  background-color: rgb(223, 0, 0);
+}
+
+.bg-green-223 {
+  background-color: rgb(0, 223, 0);
+}
+
+.text-blue-223 {
+  color: rgb(0, 0, 223);
+}
+
+.text-red-223 {
+  color: rgb(223, 0, 0);
+}
+
+.text-green-223 {
+  color: rgb(0, 223, 0);
+}
+
+.bg-blue-224 {
+  background-color: rgb(0, 0, 224);
+}
+
+.bg-red-224 {
+  background-color: rgb(224, 0, 0);
+}
+
+.bg-green-224 {
+  background-color: rgb(0, 224, 0);
+}
+
+.text-blue-224 {
+  color: rgb(0, 0, 224);
+}
+
+.text-red-224 {
+  color: rgb(224, 0, 0);
+}
+
+.text-green-224 {
+  color: rgb(0, 224, 0);
+}
+
+.bg-blue-225 {
+  background-color: rgb(0, 0, 225);
+}
+
+.bg-red-225 {
+  background-color: rgb(225, 0, 0);
+}
+
+.bg-green-225 {
+  background-color: rgb(0, 225, 0);
+}
+
+.text-blue-225 {
+  color: rgb(0, 0, 225);
+}
+
+.text-red-225 {
+  color: rgb(225, 0, 0);
+}
+
+.text-green-225 {
+  color: rgb(0, 225, 0);
+}
+
+.bg-blue-226 {
+  background-color: rgb(0, 0, 226);
+}
+
+.bg-red-226 {
+  background-color: rgb(226, 0, 0);
+}
+
+.bg-green-226 {
+  background-color: rgb(0, 226, 0);
+}
+
+.text-blue-226 {
+  color: rgb(0, 0, 226);
+}
+
+.text-red-226 {
+  color: rgb(226, 0, 0);
+}
+
+.text-green-226 {
+  color: rgb(0, 226, 0);
+}
+
+.bg-blue-227 {
+  background-color: rgb(0, 0, 227);
+}
+
+.bg-red-227 {
+  background-color: rgb(227, 0, 0);
+}
+
+.bg-green-227 {
+  background-color: rgb(0, 227, 0);
+}
+
+.text-blue-227 {
+  color: rgb(0, 0, 227);
+}
+
+.text-red-227 {
+  color: rgb(227, 0, 0);
+}
+
+.text-green-227 {
+  color: rgb(0, 227, 0);
+}
+
+.bg-blue-228 {
+  background-color: rgb(0, 0, 228);
+}
+
+.bg-red-228 {
+  background-color: rgb(228, 0, 0);
+}
+
+.bg-green-228 {
+  background-color: rgb(0, 228, 0);
+}
+
+.text-blue-228 {
+  color: rgb(0, 0, 228);
+}
+
+.text-red-228 {
+  color: rgb(228, 0, 0);
+}
+
+.text-green-228 {
+  color: rgb(0, 228, 0);
+}
+
+.bg-blue-229 {
+  background-color: rgb(0, 0, 229);
+}
+
+.bg-red-229 {
+  background-color: rgb(229, 0, 0);
+}
+
+.bg-green-229 {
+  background-color: rgb(0, 229, 0);
+}
+
+.text-blue-229 {
+  color: rgb(0, 0, 229);
+}
+
+.text-red-229 {
+  color: rgb(229, 0, 0);
+}
+
+.text-green-229 {
+  color: rgb(0, 229, 0);
+}
+
+.bg-blue-230 {
+  background-color: rgb(0, 0, 230);
+}
+
+.bg-red-230 {
+  background-color: rgb(230, 0, 0);
+}
+
+.bg-green-230 {
+  background-color: rgb(0, 230, 0);
+}
+
+.text-blue-230 {
+  color: rgb(0, 0, 230);
+}
+
+.text-red-230 {
+  color: rgb(230, 0, 0);
+}
+
+.text-green-230 {
+  color: rgb(0, 230, 0);
+}
+
+.bg-blue-231 {
+  background-color: rgb(0, 0, 231);
+}
+
+.bg-red-231 {
+  background-color: rgb(231, 0, 0);
+}
+
+.bg-green-231 {
+  background-color: rgb(0, 231, 0);
+}
+
+.text-blue-231 {
+  color: rgb(0, 0, 231);
+}
+
+.text-red-231 {
+  color: rgb(231, 0, 0);
+}
+
+.text-green-231 {
+  color: rgb(0, 231, 0);
+}
+
+.bg-blue-232 {
+  background-color: rgb(0, 0, 232);
+}
+
+.bg-red-232 {
+  background-color: rgb(232, 0, 0);
+}
+
+.bg-green-232 {
+  background-color: rgb(0, 232, 0);
+}
+
+.text-blue-232 {
+  color: rgb(0, 0, 232);
+}
+
+.text-red-232 {
+  color: rgb(232, 0, 0);
+}
+
+.text-green-232 {
+  color: rgb(0, 232, 0);
+}
+
+.bg-blue-233 {
+  background-color: rgb(0, 0, 233);
+}
+
+.bg-red-233 {
+  background-color: rgb(233, 0, 0);
+}
+
+.bg-green-233 {
+  background-color: rgb(0, 233, 0);
+}
+
+.text-blue-233 {
+  color: rgb(0, 0, 233);
+}
+
+.text-red-233 {
+  color: rgb(233, 0, 0);
+}
+
+.text-green-233 {
+  color: rgb(0, 233, 0);
+}
+
+.bg-blue-234 {
+  background-color: rgb(0, 0, 234);
+}
+
+.bg-red-234 {
+  background-color: rgb(234, 0, 0);
+}
+
+.bg-green-234 {
+  background-color: rgb(0, 234, 0);
+}
+
+.text-blue-234 {
+  color: rgb(0, 0, 234);
+}
+
+.text-red-234 {
+  color: rgb(234, 0, 0);
+}
+
+.text-green-234 {
+  color: rgb(0, 234, 0);
+}
+
+.bg-blue-235 {
+  background-color: rgb(0, 0, 235);
+}
+
+.bg-red-235 {
+  background-color: rgb(235, 0, 0);
+}
+
+.bg-green-235 {
+  background-color: rgb(0, 235, 0);
+}
+
+.text-blue-235 {
+  color: rgb(0, 0, 235);
+}
+
+.text-red-235 {
+  color: rgb(235, 0, 0);
+}
+
+.text-green-235 {
+  color: rgb(0, 235, 0);
+}
+
+.bg-blue-236 {
+  background-color: rgb(0, 0, 236);
+}
+
+.bg-red-236 {
+  background-color: rgb(236, 0, 0);
+}
+
+.bg-green-236 {
+  background-color: rgb(0, 236, 0);
+}
+
+.text-blue-236 {
+  color: rgb(0, 0, 236);
+}
+
+.text-red-236 {
+  color: rgb(236, 0, 0);
+}
+
+.text-green-236 {
+  color: rgb(0, 236, 0);
+}
+
+.bg-blue-237 {
+  background-color: rgb(0, 0, 237);
+}
+
+.bg-red-237 {
+  background-color: rgb(237, 0, 0);
+}
+
+.bg-green-237 {
+  background-color: rgb(0, 237, 0);
+}
+
+.text-blue-237 {
+  color: rgb(0, 0, 237);
+}
+
+.text-red-237 {
+  color: rgb(237, 0, 0);
+}
+
+.text-green-237 {
+  color: rgb(0, 237, 0);
+}
+
+.bg-blue-238 {
+  background-color: rgb(0, 0, 238);
+}
+
+.bg-red-238 {
+  background-color: rgb(238, 0, 0);
+}
+
+.bg-green-238 {
+  background-color: rgb(0, 238, 0);
+}
+
+.text-blue-238 {
+  color: rgb(0, 0, 238);
+}
+
+.text-red-238 {
+  color: rgb(238, 0, 0);
+}
+
+.text-green-238 {
+  color: rgb(0, 238, 0);
+}
+
+.bg-blue-239 {
+  background-color: rgb(0, 0, 239);
+}
+
+.bg-red-239 {
+  background-color: rgb(239, 0, 0);
+}
+
+.bg-green-239 {
+  background-color: rgb(0, 239, 0);
+}
+
+.text-blue-239 {
+  color: rgb(0, 0, 239);
+}
+
+.text-red-239 {
+  color: rgb(239, 0, 0);
+}
+
+.text-green-239 {
+  color: rgb(0, 239, 0);
+}
+
+.bg-blue-240 {
+  background-color: rgb(0, 0, 240);
+}
+
+.bg-red-240 {
+  background-color: rgb(240, 0, 0);
+}
+
+.bg-green-240 {
+  background-color: rgb(0, 240, 0);
+}
+
+.text-blue-240 {
+  color: rgb(0, 0, 240);
+}
+
+.text-red-240 {
+  color: rgb(240, 0, 0);
+}
+
+.text-green-240 {
+  color: rgb(0, 240, 0);
+}
+
+.bg-blue-241 {
+  background-color: rgb(0, 0, 241);
+}
+
+.bg-red-241 {
+  background-color: rgb(241, 0, 0);
+}
+
+.bg-green-241 {
+  background-color: rgb(0, 241, 0);
+}
+
+.text-blue-241 {
+  color: rgb(0, 0, 241);
+}
+
+.text-red-241 {
+  color: rgb(241, 0, 0);
+}
+
+.text-green-241 {
+  color: rgb(0, 241, 0);
+}
+
+.bg-blue-242 {
+  background-color: rgb(0, 0, 242);
+}
+
+.bg-red-242 {
+  background-color: rgb(242, 0, 0);
+}
+
+.bg-green-242 {
+  background-color: rgb(0, 242, 0);
+}
+
+.text-blue-242 {
+  color: rgb(0, 0, 242);
+}
+
+.text-red-242 {
+  color: rgb(242, 0, 0);
+}
+
+.text-green-242 {
+  color: rgb(0, 242, 0);
+}
+
+.bg-blue-243 {
+  background-color: rgb(0, 0, 243);
+}
+
+.bg-red-243 {
+  background-color: rgb(243, 0, 0);
+}
+
+.bg-green-243 {
+  background-color: rgb(0, 243, 0);
+}
+
+.text-blue-243 {
+  color: rgb(0, 0, 243);
+}
+
+.text-red-243 {
+  color: rgb(243, 0, 0);
+}
+
+.text-green-243 {
+  color: rgb(0, 243, 0);
+}
+
+.bg-blue-244 {
+  background-color: rgb(0, 0, 244);
+}
+
+.bg-red-244 {
+  background-color: rgb(244, 0, 0);
+}
+
+.bg-green-244 {
+  background-color: rgb(0, 244, 0);
+}
+
+.text-blue-244 {
+  color: rgb(0, 0, 244);
+}
+
+.text-red-244 {
+  color: rgb(244, 0, 0);
+}
+
+.text-green-244 {
+  color: rgb(0, 244, 0);
+}
+
+.bg-blue-245 {
+  background-color: rgb(0, 0, 245);
+}
+
+.bg-red-245 {
+  background-color: rgb(245, 0, 0);
+}
+
+.bg-green-245 {
+  background-color: rgb(0, 245, 0);
+}
+
+.text-blue-245 {
+  color: rgb(0, 0, 245);
+}
+
+.text-red-245 {
+  color: rgb(245, 0, 0);
+}
+
+.text-green-245 {
+  color: rgb(0, 245, 0);
+}
+
+.bg-blue-246 {
+  background-color: rgb(0, 0, 246);
+}
+
+.bg-red-246 {
+  background-color: rgb(246, 0, 0);
+}
+
+.bg-green-246 {
+  background-color: rgb(0, 246, 0);
+}
+
+.text-blue-246 {
+  color: rgb(0, 0, 246);
+}
+
+.text-red-246 {
+  color: rgb(246, 0, 0);
+}
+
+.text-green-246 {
+  color: rgb(0, 246, 0);
+}
+
+.bg-blue-247 {
+  background-color: rgb(0, 0, 247);
+}
+
+.bg-red-247 {
+  background-color: rgb(247, 0, 0);
+}
+
+.bg-green-247 {
+  background-color: rgb(0, 247, 0);
+}
+
+.text-blue-247 {
+  color: rgb(0, 0, 247);
+}
+
+.text-red-247 {
+  color: rgb(247, 0, 0);
+}
+
+.text-green-247 {
+  color: rgb(0, 247, 0);
+}
+
+.bg-blue-248 {
+  background-color: rgb(0, 0, 248);
+}
+
+.bg-red-248 {
+  background-color: rgb(248, 0, 0);
+}
+
+.bg-green-248 {
+  background-color: rgb(0, 248, 0);
+}
+
+.text-blue-248 {
+  color: rgb(0, 0, 248);
+}
+
+.text-red-248 {
+  color: rgb(248, 0, 0);
+}
+
+.text-green-248 {
+  color: rgb(0, 248, 0);
+}
+
+.bg-blue-249 {
+  background-color: rgb(0, 0, 249);
+}
+
+.bg-red-249 {
+  background-color: rgb(249, 0, 0);
+}
+
+.bg-green-249 {
+  background-color: rgb(0, 249, 0);
+}
+
+.text-blue-249 {
+  color: rgb(0, 0, 249);
+}
+
+.text-red-249 {
+  color: rgb(249, 0, 0);
+}
+
+.text-green-249 {
+  color: rgb(0, 249, 0);
+}
+
+.bg-blue-250 {
+  background-color: rgb(0, 0, 250);
+}
+
+.bg-red-250 {
+  background-color: rgb(250, 0, 0);
+}
+
+.bg-green-250 {
+  background-color: rgb(0, 250, 0);
+}
+
+.text-blue-250 {
+  color: rgb(0, 0, 250);
+}
+
+.text-red-250 {
+  color: rgb(250, 0, 0);
+}
+
+.text-green-250 {
+  color: rgb(0, 250, 0);
+}
+
+.bg-blue-251 {
+  background-color: rgb(0, 0, 251);
+}
+
+.bg-red-251 {
+  background-color: rgb(251, 0, 0);
+}
+
+.bg-green-251 {
+  background-color: rgb(0, 251, 0);
+}
+
+.text-blue-251 {
+  color: rgb(0, 0, 251);
+}
+
+.text-red-251 {
+  color: rgb(251, 0, 0);
+}
+
+.text-green-251 {
+  color: rgb(0, 251, 0);
+}
+
+.bg-blue-252 {
+  background-color: rgb(0, 0, 252);
+}
+
+.bg-red-252 {
+  background-color: rgb(252, 0, 0);
+}
+
+.bg-green-252 {
+  background-color: rgb(0, 252, 0);
+}
+
+.text-blue-252 {
+  color: rgb(0, 0, 252);
+}
+
+.text-red-252 {
+  color: rgb(252, 0, 0);
+}
+
+.text-green-252 {
+  color: rgb(0, 252, 0);
+}
+
+.bg-blue-253 {
+  background-color: rgb(0, 0, 253);
+}
+
+.bg-red-253 {
+  background-color: rgb(253, 0, 0);
+}
+
+.bg-green-253 {
+  background-color: rgb(0, 253, 0);
+}
+
+.text-blue-253 {
+  color: rgb(0, 0, 253);
+}
+
+.text-red-253 {
+  color: rgb(253, 0, 0);
+}
+
+.text-green-253 {
+  color: rgb(0, 253, 0);
+}
+
+.bg-blue-254 {
+  background-color: rgb(0, 0, 254);
+}
+
+.bg-red-254 {
+  background-color: rgb(254, 0, 0);
+}
+
+.bg-green-254 {
+  background-color: rgb(0, 254, 0);
+}
+
+.text-blue-254 {
+  color: rgb(0, 0, 254);
+}
+
+.text-red-254 {
+  color: rgb(254, 0, 0);
+}
+
+.text-green-254 {
+  color: rgb(0, 254, 0);
+}
+
+.bg-blue-255 {
+  background-color: rgb(0, 0, 255);
+}
+
+.bg-red-255 {
+  background-color: rgb(255, 0, 0);
+}
+
+.bg-green-255 {
+  background-color: rgb(0, 255, 0);
+}
+
+.text-blue-255 {
+  color: rgb(0, 0, 255);
+}
+
+.text-red-255 {
+  color: rgb(255, 0, 0);
+}
+
+.text-green-255 {
+  color: rgb(0, 255, 0);
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.258), -5px -5px 5px white;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */
