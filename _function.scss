@@ -1,83 +1,89 @@
-@mixin change_Flex(){
+
+@for $size from 1 through 255 {
+
+    .box-#{$size} {
+        height: $size*2+px;
+        width: $size*2+px;
+    }
+
+    .p-#{$size} {
+        padding: $size+px;
+    }
+
+    .m-#{$size} {
+        margin: $size+px;
+    }
+
+    .gap-#{$size} {
+        gap: $size+px;
+    }
+
+    .fs-#{$size} {
+        font-size: $size+px;
+    }
+
+    .br-#{$size} {
+        border-radius: $size+px;
+    }
+
+    .b-#{$size} {
+        border: $size+px solid black;
+    }
+
+    .fw-#{$size*100} {
+        font-weight: $size*100;
+    }
+
+    .bg-blue-#{$size} {
+        background-color: rgb(0, 0, $size);
+    }
+
+    .bg-red-#{$size} {
+        background-color: rgb($size, 0, 0);
+    }
+
+    .bg-green-#{$size} {
+        background-color: rgb(0, $size, 0);
+    }
+
+    .text-blue-#{$size} {
+        color: rgb(0, 0, $size);
+    }
+
+    .text-red-#{$size} {
+        color: rgb($size, 0, 0);
+    }
+
+    .text-green-#{$size} {
+        color: rgb(0, $size, 0);
+    }
+
+
+}
+
+.flex {
     display: flex;
-    justify-content: center;
+}
+
+.align-items {
     align-items: center;
 }
 
-
-@for   $size from 1 through 255{
-    @if($size>=50 and $size <= 100){
-        .box-#{$size}{
-         height: $size*2+px;
-         width: $size*2+px;
-        }
-
-    }
-    @if($size<=30){
-        .p-#{$size}{
-            padding: $size+px;
-           }
-           .m-#{$size}{
-            margin: $size+px;
-           }
-           .gap-#{$size}{
-            gap: $size+px;
-           }
-           .fs-#{$size}{
-            font-size: $size+px;
-           }
-           .br-#{$size}{
-            border-radius: $size+px;
-        }
-          
-    }
-    @if($size<=10){
-        .b-#{$size}{
-         border: $size+px solid black;
-        }
-
-    }
-    @if($size<10){
-        .fw-#{$size*100}{
-            font-weight:$size*100;
-           }
-    }
-   .bg-blue-#{$size}{
-    background-color: rgb(0, 0, $size);
-   }
-   .bg-red-#{$size}{
-    background-color: rgb($size, 0, 0);
-   }
-   .bg-green-#{$size}{
-    background-color: rgb(0, $size, 0);
-   }
-   .text-blue-#{$size}{
-    color: rgb(0, 0, $size);
-   }
-   .text-red-#{$size}{
-    color: rgb($size, 0, 0);
-   }
-   .text-green-#{$size}{
-    color: rgb(0, $size, 0);
-   }
-   
-   
-}
-.flex{
-    display: flex;
-}
-.align-items{
-    align-items: center;
-}
-.justify-content{
+.justify-content {
     justify-content: center;
 }
-.box-shadow{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.258),-5px -5px 5px white;
+
+.box-shadow {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.258), -5px -5px 5px white;
 }
-.wrap{
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.258), -2px -2px 5px white;
+}
+
+.wrap {
     flex-wrap: wrap;
 }
-.h-100vh{
+
+.h-100vh {
     height: 100vh;
 }
